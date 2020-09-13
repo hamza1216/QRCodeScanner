@@ -1,0 +1,43 @@
+/* (No Comment) */
+"1 Year Plan" = "1年プラン";
+
+/* localizable.strings
+  QRCode Reader
+
+  Created by Jaelhorton on 8/27/20.
+  Copyright © 2020 qrcodereader. All rights reserved. */
+"Are you sure to delete this item?" = "このアイテムを削除してもよろしいですか？";
+
+/* (No Comment) */
+"Cancel" = "キャンセル";
+
+/* (No Comment) */
+"Copy" = "コピーする";
+
+/* (No Comment) */
+"Delete" = "削除する";
+
+/* (No Comment) */
+"Please purchase membership to use this application." = "このアプリケーションを使用するには、メンバーシップを購入してください。";
+
+/* (No Comment) */
+"Scanning not supported" = "スキャンはサポートされていません";
+
+/* (No Comment) */
+"Search on amazon" = "アマゾンで検索";
+
+/* (No Comment) */
+"Search on google" = "グーグルで検索";
+
+/* (No Comment) */
+"Share" = "共有";
+
+/* (No Comment) */
+"You have already purchased membership." = "メンバーシップをすでに購入しています。";
+
+/* (No Comment) */
+"Your device does not support scanning a code from an item. Please use a device with a camera." = "お使いのデバイスは、アイテムからのコードのスキャンをサポートしていません。 カメラ付きのデバイスを使用してください。";
+
+/* (No Comment) */
+"Your membership will be expire on " = "メンバーシップの有効期限は ";
+

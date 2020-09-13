@@ -1,0 +1,43 @@
+/* (No Comment) */
+"1 Year Plan" = "1 års plan";
+
+/* localizable.strings
+  QRCode Reader
+
+  Created by Jaelhorton on 8/27/20.
+  Copyright © 2020 qrcodereader. All rights reserved. */
+"Are you sure to delete this item?" = "Er du sikker på at slette dette element?";
+
+/* (No Comment) */
+"Cancel" = "Afbestille";
+
+/* (No Comment) */
+"Copy" = "Kopi";
+
+/* (No Comment) */
+"Delete" = "Slet";
+
+/* (No Comment) */
+"Please purchase membership to use this application." = "Køb et medlemskab for at bruge denne app.";
+
+/* (No Comment) */
+"Scanning not supported" = "Scanning understøttes ikke";
+
+/* (No Comment) */
+"Search on amazon" = "Søg på Amazon";
+
+/* (No Comment) */
+"Search on google" = "Søg på google";
+
+/* (No Comment) */
+"Share" = "Del";
+
+/* (No Comment) */
+"You have already purchased membership." = "Du har allerede købt medlemskab.";
+
+/* (No Comment) */
+"Your device does not support scanning a code from an item. Please use a device with a camera." = "Din enhed understøtter ikke scanning af en kode fra et element. Brug en enhed med et kamera.";
+
+/* (No Comment) */
+"Your membership will be expire on " = "Dit medlemskab udløber den ";
+

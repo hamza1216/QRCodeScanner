@@ -1,0 +1,43 @@
+/* (No Comment) */
+"1 Year Plan" = "Piano di 1 anno";
+
+/* localizable.strings
+  QRCode Reader
+
+  Created by Jaelhorton on 8/27/20.
+  Copyright © 2020 qrcodereader. All rights reserved. */
+"Are you sure to delete this item?" = "Sei sicuro di eliminare questo articolo?";
+
+/* (No Comment) */
+"Cancel" = "Annulla";
+
+/* (No Comment) */
+"Copy" = "copia";
+
+/* (No Comment) */
+"Delete" = "Elimina";
+
+/* (No Comment) */
+"Please purchase membership to use this application." = "Si prega di acquistare l'abbonamento per utilizzare questa applicazione.";
+
+/* (No Comment) */
+"Scanning not supported" = "Scansione non supportata";
+
+/* (No Comment) */
+"Search on amazon" = "Cerca su Amazon";
+
+/* (No Comment) */
+"Search on google" = "Cerca su google";
+
+/* (No Comment) */
+"Share" = "Condividere";
+
+/* (No Comment) */
+"You have already purchased membership." = "Hai già acquistato l'abbonamento.";
+
+/* (No Comment) */
+"Your device does not support scanning a code from an item. Please use a device with a camera." = "Il dispositivo non supporta la scansione di un codice da un elemento. Si prega di utilizzare un dispositivo con una fotocamera.";
+
+/* (No Comment) */
+"Your membership will be expire on " = "La tua iscrizione scadrà il ";
+

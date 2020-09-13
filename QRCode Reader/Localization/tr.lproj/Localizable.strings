@@ -1,0 +1,43 @@
+/* (No Comment) */
+"1 Year Plan" = "1 Yıllık Plan";
+
+/* localizable.strings
+  QRCode Reader
+
+  Created by Jaelhorton on 8/27/20.
+  Copyright © 2020 qrcodereader. All rights reserved. */
+"Are you sure to delete this item?" = "Bu öğeyi silmek istediğinizden emin misiniz?";
+
+/* (No Comment) */
+"Cancel" = "İptal etmek";
+
+/* (No Comment) */
+"Copy" = "Kopyala";
+
+/* (No Comment) */
+"Delete" = "Sil";
+
+/* (No Comment) */
+"Please purchase membership to use this application." = "Bu uygulamayı kullanmak için lütfen üyelik satın alın.";
+
+/* (No Comment) */
+"Scanning not supported" = "Tarama desteklenmiyor";
+
+/* (No Comment) */
+"Search on amazon" = "Amazon'da ara";
+
+/* (No Comment) */
+"Search on google" = "Google'da ara";
+
+/* (No Comment) */
+"Share" = "Paylaş";
+
+/* (No Comment) */
+"You have already purchased membership." = "Zaten üyelik satın aldınız.";
+
+/* (No Comment) */
+"Your device does not support scanning a code from an item. Please use a device with a camera." = "Cihazınız bir öğeden kod taramayı desteklemiyor. Lütfen kameralı bir cihaz kullanın.";
+
+/* (No Comment) */
+"Your membership will be expire on " = "Üyeliğiniz tarihinde sona erecek ";
+

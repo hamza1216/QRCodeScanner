@@ -1,0 +1,21 @@
+/* 
+  localizable.strings
+  QRCode Reader
+
+  Created by Jaelhorton on 8/27/20.
+  Copyright © 2020 qrcodereader. All rights reserved.
+*/
+
+"Are you sure to delete this item?" = "Are you sure to delete this item?";
+"Delete" = "Delete";
+"Scanning not supported" = "Scanning not supported";
+"Your device does not support scanning a code from an item. Please use a device with a camera." = "Your device does not support scanning a code from an item. Please use a device with a camera.";
+"Search on google" = "Search on google";
+"Search on amazon" = "Search on amazon";
+"Copy" = "Copy";
+"Share" = "Share";
+"Cancel" = "Cancel";
+"1 Year Plan" = "1 Year Plan";
+"You have already purchased membership." = "You have already purchased membership.";
+"Your membership will be expire on " = "Your membership will be expire on ";
+"Please purchase membership to use this application." = "Please purchase membership to use this application.";

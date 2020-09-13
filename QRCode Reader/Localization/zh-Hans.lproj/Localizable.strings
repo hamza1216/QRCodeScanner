@@ -1,0 +1,43 @@
+/* (No Comment) */
+"1 Year Plan" = "1年计划";
+
+/* localizable.strings
+  QRCode Reader
+
+  Created by Jaelhorton on 8/27/20.
+  Copyright © 2020 qrcodereader. All rights reserved. */
+"Are you sure to delete this item?" = "您确定要删除此项目吗？";
+
+/* (No Comment) */
+"Cancel" = "取消";
+
+/* (No Comment) */
+"Copy" = "复制";
+
+/* (No Comment) */
+"Delete" = "删除";
+
+/* (No Comment) */
+"Please purchase membership to use this application." = "请购买会员才能使用此应用程序。";
+
+/* (No Comment) */
+"Scanning not supported" = "不支持扫描";
+
+/* (No Comment) */
+"Search on amazon" = "在亚马逊上搜索";
+
+/* (No Comment) */
+"Search on google" = "在谷歌搜索";
+
+/* (No Comment) */
+"Share" = "分享";
+
+/* (No Comment) */
+"You have already purchased membership." = "您已经购买了会员资格。";
+
+/* (No Comment) */
+"Your device does not support scanning a code from an item. Please use a device with a camera." = "您的设备不支持扫描项目中的代码。 请使用带有摄像头的设备。";
+
+/* (No Comment) */
+"Your membership will be expire on " = "您的会员资格将在 ";
+
