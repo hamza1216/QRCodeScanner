@@ -18,7 +18,19 @@
 "Delete" = "حذف";
 
 /* (No Comment) */
+"Edit" = "تعديل";
+
+/* (No Comment) */
+"Locked" = "Locked";
+
+/* (No Comment) */
+"Please enter the text" = "الرجاء إدخال النص";
+
+/* (No Comment) */
 "Please purchase membership to use this application." = "شراء عضوية لاستخدام هذا التطبيق.";
+
+/* (No Comment) */
+"Premium" = "الممتازة";
 
 /* (No Comment) */
 "Scanning not supported" = "المسح غير مدعوم";

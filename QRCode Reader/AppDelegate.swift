@@ -13,6 +13,7 @@ import SwiftyStoreKit
 import FBSDKCoreKit
 import Firebase
 
+
 var realm = try! Realm()
 let falsepredicate = NSPredicate(value: false)
 
@@ -31,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         // Deliver content from server, then:
                         SwiftyStoreKit.finishTransaction(purchase.transaction)
                     }
-                    print("\(purchase.transaction.transactionState.debugDescription): \(purchase.productId)")
+                    //print("\(purchase.transaction.transactionState.debugDescription): \(purchase.productId)")
                 case .failed, .purchasing, .deferred:
                     break // do nothing
                 @unknown default:

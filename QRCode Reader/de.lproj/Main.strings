@@ -5,14 +5,20 @@
 /* Class = "UILabel"; text = "Locked"; ObjectID = "1Lz-rg-uHF"; */
 "1Lz-rg-uHF.text" = "Locked";
 
-/* Class = "UIButton"; normalTitle = "Open in browser"; ObjectID = "2cB-59-NrO"; */
-"2cB-59-NrO.normalTitle" = "Open in browser";
+/* Class = "UILabel"; text = "Body"; ObjectID = "2gJ-UB-mpu"; */
+"2gJ-UB-mpu.text" = "Body";
 
 /* Class = "UILabel"; text = "1 Year Plan"; ObjectID = "49E-z0-Atj"; */
 "49E-z0-Atj.text" = "1 Year Plan";
 
+/* Class = "UILabel"; text = "Save QR Code to Cameraroll"; ObjectID = "5TW-kN-4MT"; */
+"5TW-kN-4MT.text" = "Save QR Code to Cameraroll";
+
 /* Class = "UILabel"; text = "No History"; ObjectID = "5us-YD-f5K"; */
 "5us-YD-f5K.text" = "No History";
+
+/* Class = "UITextField"; text = "https://"; ObjectID = "7aw-t8-uDg"; */
+"7aw-t8-uDg.text" = "https://";
 
 /* Class = "UITabBarItem"; title = "History"; ObjectID = "7gJ-nJ-6VF"; */
 "7gJ-nJ-6VF.title" = "History";
@@ -20,8 +26,20 @@
 /* Class = "UILabel"; text = "Save history for scanning"; ObjectID = "7t9-r8-Fdk"; */
 "7t9-r8-Fdk.text" = "Save history for scanning";
 
-/* Class = "UILabel"; text = "Scan 15 types of QR Codes"; ObjectID = "BlL-un-aiF"; */
-"BlL-un-aiF.text" = "Scan 15 types of QR Codes";
+/* Class = "UILabel"; text = "Jan 2, 2020"; ObjectID = "8Lv-Aj-HNa"; */
+"8Lv-Aj-HNa.text" = "Jan 2, 2020";
+
+/* Class = "UILabel"; text = "Subject"; ObjectID = "8XU-BE-eEV"; */
+"8XU-BE-eEV.text" = "Subject";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Aia-Tt-Via"; */
+"Aia-Tt-Via.title" = "Done";
+
+/* Class = "UILabel"; text = "Actions"; ObjectID = "BEL-A4-vEa"; */
+"BEL-A4-vEa.text" = "Actions";
+
+/* Class = "UILabel"; text = "Scan & Create 15 types of QR Codes"; ObjectID = "BlL-un-aiF"; */
+"BlL-un-aiF.text" = "Scan & Create 15 types of QR Codes";
 
 /* Class = "UITabBarItem"; title = "Settings"; ObjectID = "Dma-t1-epY"; */
 "Dma-t1-epY.title" = "Settings";
@@ -35,17 +53,29 @@
 /* Class = "UIButton"; normalTitle = "Restore Purchase"; ObjectID = "EsG-an-bXo"; */
 "EsG-an-bXo.normalTitle" = "Restore Purchase";
 
+/* Class = "UILabel"; text = "Open in Browser"; ObjectID = "Eyx-SS-cR0"; */
+"Eyx-SS-cR0.text" = "Open in Browser";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "FJP-lc-HiF"; */
+"FJP-lc-HiF.text" = "Facebook";
+
 /* Class = "UINavigationItem"; title = "History"; ObjectID = "Hev-EQ-Qgn"; */
 "Hev-EQ-Qgn.title" = "History";
 
-/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "I5Q-Ko-Yn9"; */
-"I5Q-Ko-Yn9.normalTitle" = "Close";
+/* Class = "UITabBarItem"; title = "My Codes"; ObjectID = "MRe-IS-AhD"; */
+"MRe-IS-AhD.title" = "My Codes";
 
 /* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "Nr9-l9-EKU"; */
 "Nr9-l9-EKU.text" = "Privacy Policy";
 
 /* Class = "UILabel"; text = "Vibrate"; ObjectID = "OOg-Hx-IqM"; */
 "OOg-Hx-IqM.text" = "Vibrate";
+
+/* Class = "UILabel"; text = "Result"; ObjectID = "PqD-DC-HLN"; */
+"PqD-DC-HLN.text" = "Result";
+
+/* Class = "UINavigationItem"; title = "Select"; ObjectID = "QYI-qT-MY3"; */
+"QYI-qT-MY3.title" = "Select";
 
 /* Class = "UILabel"; text = "Terms of use"; ObjectID = "T0y-Dl-ay3"; */
 "T0y-Dl-ay3.text" = "Terms of use";
@@ -56,20 +86,23 @@
 /* Class = "UILabel"; text = "Beep"; ObjectID = "V56-PH-ld0"; */
 "V56-PH-ld0.text" = "Beep";
 
+/* Class = "UILabel"; text = "https://www.google.com"; ObjectID = "X9r-GN-eob"; */
+"X9r-GN-eob.text" = "https://www.google.com";
+
 /* Class = "UILabel"; text = "Upgrade to premium"; ObjectID = "YMV-dS-gKL"; */
 "YMV-dS-gKL.text" = "Upgrade to premium";
 
-/* Class = "UILabel"; text = "Text"; ObjectID = "Z36-JG-4JR"; */
-"Z36-JG-4JR.text" = "Text";
+/* Class = "UILabel"; text = "CC"; ObjectID = "a6f-8H-9gP"; */
+"a6f-8H-9gP.text" = "CC";
 
 /* Class = "UILabel"; text = "https://www.google.com"; ObjectID = "agW-07-ipv"; */
 "agW-07-ipv.text" = "https://www.google.com";
 
+/* Class = "UINavigationItem"; title = "My QR Codes"; ObjectID = "asX-M3-9QA"; */
+"asX-M3-9QA.title" = "My QR Codes";
+
 /* Class = "UILabel"; text = "Subscription"; ObjectID = "ck7-xF-I2q"; */
 "ck7-xF-I2q.text" = "Subscription";
-
-/* Class = "UILabel"; text = "Result"; ObjectID = "g4V-zW-8CB"; */
-"g4V-zW-8CB.text" = "Result";
 
 /* Class = "UINavigationItem"; title = "Upgrade to premium"; ObjectID = "gJJ-uU-wrl"; */
 "gJJ-uU-wrl.title" = "Upgrade to premium";
@@ -95,6 +128,9 @@
 /* Class = "UILabel"; text = "$29.99 / year"; ObjectID = "k4T-0W-LEl"; */
 "k4T-0W-LEl.text" = "$29.99 / year";
 
+/* Class = "UINavigationItem"; title = "URL"; ObjectID = "l7p-LR-iqE"; */
+"l7p-LR-iqE.title" = "URL";
+
 /* Class = "UITableViewSection"; headerTitle = "Others"; ObjectID = "lNm-u6-Ck1"; */
 "lNm-u6-Ck1.headerTitle" = "Others";
 
@@ -107,11 +143,23 @@
 /* Class = "UILabel"; text = "Vibrate if scan is successful"; ObjectID = "mOu-5E-ZmF"; */
 "mOu-5E-ZmF.text" = "Vibrate if scan is successful";
 
-/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "r7u-cl-Dyi"; */
-"r7u-cl-Dyi.normalTitle" = "Share";
+/* Class = "UINavigationItem"; title = "QR Code Detail"; ObjectID = "n9D-jS-1kW"; */
+"n9D-jS-1kW.title" = "QR Code Detail";
+
+/* Class = "UILabel"; text = "Share QR Code"; ObjectID = "obz-bn-ffo"; */
+"obz-bn-ffo.text" = "Share QR Code";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "qCY-WI-Jup"; */
+"qCY-WI-Jup.title" = "Back";
+
+/* Class = "UILabel"; text = "URL"; ObjectID = "sbc-Sg-OJc"; */
+"sbc-Sg-OJc.text" = "URL";
 
 /* Class = "UILabel"; text = "Beep if scan is successful"; ObjectID = "tUT-zv-80F"; */
 "tUT-zv-80F.text" = "Beep if scan is successful";
 
 /* Class = "UILabel"; text = "Package"; ObjectID = "vDA-Zi-b6E"; */
 "vDA-Zi-b6E.text" = "Package";
+
+/* Class = "UILabel"; text = "No History\nCreate a QR Code"; ObjectID = "vf7-iC-AOv"; */
+"vf7-iC-AOv.text" = "No History\nCreate a QR Code";

@@ -1,35 +1,35 @@
 /* Class = "UIButton"; normalTitle = "Subscribe Now"; ObjectID = "0s9-hA-BeU"; */
-"0s9-hA-BeU.normalTitle" = "إشترك الآن";
+"0s9-hA-BeU.normalTitle" = "Subskrybuj teraz";
 
 /* Class = "UILabel"; text = "Locked"; ObjectID = "1Lz-rg-uHF"; */
-"1Lz-rg-uHF.text" = "مقفل";
+"1Lz-rg-uHF.text" = "Zablokowane";
 
 /* Class = "UILabel"; text = "Body"; ObjectID = "2gJ-UB-mpu"; */
-"2gJ-UB-mpu.text" = "الجسم";
+"2gJ-UB-mpu.text" = "Treść";
 
 /* Class = "UILabel"; text = "Save QR Code to Cameraroll"; ObjectID = "5TW-kN-4MT"; */
-"5TW-kN-4MT.text" = "احفظ رمز الاستجابة السريعة في Camera Roll";
+"5TW-kN-4MT.text" = "Zapisz kod QR w folderze aparatu";
 
 /* Class = "UILabel"; text = "No History"; ObjectID = "5us-YD-f5K"; */
-"5us-YD-f5K.text" = "No History";
+"5us-YD-f5K.text" = "Brak historii";
 
 /* Class = "UITextField"; text = "https://"; ObjectID = "7aw-t8-uDg"; */
 "7aw-t8-uDg.text" = "https://";
 
 /* Class = "UITabBarItem"; title = "History"; ObjectID = "7gJ-nJ-6VF"; */
-"7gJ-nJ-6VF.title" = "التاريخ";
+"7gJ-nJ-6VF.title" = "Historia";
 
 /* Class = "UILabel"; text = "Save history for scanning"; ObjectID = "7t9-r8-Fdk"; */
-"7t9-r8-Fdk.text" = "حفظ المحفوظات للمسح";
+"7t9-r8-Fdk.text" = "Zapisz historię do skanowania";
 
 /* Class = "UILabel"; text = "Jan 2, 2020"; ObjectID = "8Lv-Aj-HNa"; */
 "8Lv-Aj-HNa.text" = "Jan 2, 2020";
 
 /* Class = "UILabel"; text = "Subject"; ObjectID = "8XU-BE-eEV"; */
-"8XU-BE-eEV.text" = "موضوع";
+"8XU-BE-eEV.text" = "Temat";
 
 /* Class = "UILabel"; text = "1 Year Plan"; ObjectID = "49E-z0-Atj"; */
-"49E-z0-Atj.text" = "خطة سنة واحدة";
+"49E-z0-Atj.text" = "Plan roczny";
 
 /* Class = "UILabel"; text = "CC"; ObjectID = "a6f-8H-9gP"; */
 "a6f-8H-9gP.text" = "CC";
@@ -38,128 +38,128 @@
 "agW-07-ipv.text" = "https://www.google.com";
 
 /* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Aia-Tt-Via"; */
-"Aia-Tt-Via.title" = "منجز";
+"Aia-Tt-Via.title" = "Wykonano";
 
 /* Class = "UINavigationItem"; title = "My QR Codes"; ObjectID = "asX-M3-9QA"; */
-"asX-M3-9QA.title" = "أكواد QR الخاصة بي";
+"asX-M3-9QA.title" = "Moje kody QR";
 
 /* Class = "UILabel"; text = "Actions"; ObjectID = "BEL-A4-vEa"; */
-"BEL-A4-vEa.text" = "أجراءات";
+"BEL-A4-vEa.text" = "Działania";
 
 /* Class = "UILabel"; text = "Scan & Create 15 types of QR Codes"; ObjectID = "BlL-un-aiF"; */
-"BlL-un-aiF.text" = "Scan & Create 15 types of QR Codes";
+"BlL-un-aiF.text" = "Zeskanuj i utwórz 15 rodzajów kodów QR";
 
 /* Class = "UILabel"; text = "Subscription"; ObjectID = "ck7-xF-I2q"; */
-"ck7-xF-I2q.text" = "الاشتراك";
+"ck7-xF-I2q.text" = "subskrypcja";
 
 /* Class = "UITabBarItem"; title = "Settings"; ObjectID = "Dma-t1-epY"; */
-"Dma-t1-epY.title" = "الإعدادات";
+"Dma-t1-epY.title" = "Ustawienia";
 
 /* Class = "UILabel"; text = "History"; ObjectID = "EbL-6E-4yr"; */
-"EbL-6E-4yr.text" = "التاريخ";
+"EbL-6E-4yr.text" = "Historia";
 
 /* Class = "UITableViewSection"; headerTitle = "Account"; ObjectID = "EOF-sa-ryD"; */
-"EOF-sa-ryD.headerTitle" = "الحساب";
+"EOF-sa-ryD.headerTitle" = "Konto";
 
 /* Class = "UIButton"; normalTitle = "Restore Purchase"; ObjectID = "EsG-an-bXo"; */
-"EsG-an-bXo.normalTitle" = "استعادة شراء";
+"EsG-an-bXo.normalTitle" = "Przywróć zakup";
 
 /* Class = "UILabel"; text = "Open in Browser"; ObjectID = "Eyx-SS-cR0"; */
-"Eyx-SS-cR0.text" = "افتح في المتصفح";
+"Eyx-SS-cR0.text" = "Otwórz w przeglądarce";
 
 /* Class = "UILabel"; text = "Facebook"; ObjectID = "FJP-lc-HiF"; */
 "FJP-lc-HiF.text" = "Facebook";
 
 /* Class = "UINavigationItem"; title = "Upgrade to premium"; ObjectID = "gJJ-uU-wrl"; */
-"gJJ-uU-wrl.title" = "الترقية إلى المميزة";
+"gJJ-uU-wrl.title" = "Przejdź na wersję premium";
 
 /* Class = "UINavigationItem"; title = "Settings"; ObjectID = "hB0-yo-fLR"; */
-"hB0-yo-fLR.title" = "الإعدادات";
+"hB0-yo-fLR.title" = "Ustawienia";
 
 /* Class = "UILabel"; text = "Jan 2, 2020"; ObjectID = "hBs-10-b5P"; */
 "hBs-10-b5P.text" = "Jan 2, 2020";
 
 /* Class = "UINavigationItem"; title = "History"; ObjectID = "Hev-EQ-Qgn"; */
-"Hev-EQ-Qgn.title" = "التاريخ";
+"Hev-EQ-Qgn.title" = "Historia";
 
 /* Class = "UILabel"; text = "24/7 priority support"; ObjectID = "iaH-XN-xLe"; */
-"iaH-XN-xLe.text" = "24/7 أولوية الدعم";
+"iaH-XN-xLe.text" = "Priorytetowe wsparcie 24/7";
 
 /* Class = "UILabel"; text = "Made with 💜 by Nisos UK Limited"; ObjectID = "iWJ-gv-geH"; */
-"iWJ-gv-geH.text" = "Made with 💜 by Nisos UK Limited";
+"iWJ-gv-geH.text" = "Wykonane przez 💜 Nisos UK Limited";
 
 /* Class = "UITabBarItem"; title = "Scanner"; ObjectID = "jmT-Tg-66q"; */
-"jmT-Tg-66q.title" = "الماسح الضوئي";
+"jmT-Tg-66q.title" = "Skaner";
 
 /* Class = "UITableViewSection"; headerTitle = "General"; ObjectID = "k3e-bp-DR0"; */
-"k3e-bp-DR0.headerTitle" = "جنرال لواء";
+"k3e-bp-DR0.headerTitle" = "Ogólne";
 
 /* Class = "UILabel"; text = "$29.99 / year"; ObjectID = "k4T-0W-LEl"; */
-"k4T-0W-LEl.text" = "29.99 دولارًا في السنة";
+"k4T-0W-LEl.text" = "29,99 USD/ rok";
 
 /* Class = "UINavigationItem"; title = "URL"; ObjectID = "l7p-LR-iqE"; */
 "l7p-LR-iqE.title" = "URL";
 
 /* Class = "UITableViewSection"; headerTitle = "Others"; ObjectID = "lNm-u6-Ck1"; */
-"lNm-u6-Ck1.headerTitle" = "الآخرين";
+"lNm-u6-Ck1.headerTitle" = "Inne";
 
 /* Class = "UILabel"; text = "Scan barcodes and shop on Google or Amazon"; ObjectID = "loH-Lh-gli"; */
-"loH-Lh-gli.text" = "مسح الباركود والتسوق على جوجل أو أمازون";
+"loH-Lh-gli.text" = "Skanuj kody kreskowe i kupuj w Google lub Amazon";
 
 /* Class = "UILabel"; text = "Your QR code scan is a tap away!"; ObjectID = "lyN-wI-hfw"; */
-"lyN-wI-hfw.text" = "مسح رمز الاستجابة السريعة الخاص بك هو نقرة واحدة!";
+"lyN-wI-hfw.text" = "Skanowanie kodu QR jest na wyciągnięcie ręki!";
 
 /* Class = "UILabel"; text = "Vibrate if scan is successful"; ObjectID = "mOu-5E-ZmF"; */
-"mOu-5E-ZmF.text" = "الاهتزاز إذا نجح المسح";
+"mOu-5E-ZmF.text" = "Wibruj, jeśli skanowanie zakończy się powodzeniem";
 
 /* Class = "UITabBarItem"; title = "My Codes"; ObjectID = "MRe-IS-AhD"; */
-"MRe-IS-AhD.title" = "أكوادي";
+"MRe-IS-AhD.title" = "Moje kody";
 
 /* Class = "UINavigationItem"; title = "QR Code Detail"; ObjectID = "n9D-jS-1kW"; */
-"n9D-jS-1kW.title" = "تفاصيل رمز الاستجابة السريعة";
+"n9D-jS-1kW.title" = "Szczegóły kodu QR";
 
 /* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "Nr9-l9-EKU"; */
-"Nr9-l9-EKU.text" = "سياسة خاصة";
+"Nr9-l9-EKU.text" = "Polityka prywatności";
 
 /* Class = "UILabel"; text = "Share QR Code"; ObjectID = "obz-bn-ffo"; */
-"obz-bn-ffo.text" = "مشاركة رمز الاستجابة السريعة";
+"obz-bn-ffo.text" = "Udostępnij kod QR";
 
 /* Class = "UILabel"; text = "Vibrate"; ObjectID = "OOg-Hx-IqM"; */
-"OOg-Hx-IqM.text" = "تذبذب";
+"OOg-Hx-IqM.text" = "Wibruj";
 
 /* Class = "UILabel"; text = "Result"; ObjectID = "PqD-DC-HLN"; */
-"PqD-DC-HLN.text" = "نتيجة";
+"PqD-DC-HLN.text" = "Wynik";
 
 /* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "qCY-WI-Jup"; */
-"qCY-WI-Jup.title" = "عودة";
+"qCY-WI-Jup.title" = "Wstecz";
 
 /* Class = "UINavigationItem"; title = "Select"; ObjectID = "QYI-qT-MY3"; */
-"QYI-qT-MY3.title" = "تحديد";
+"QYI-qT-MY3.title" = "Wybierz";
 
 /* Class = "UILabel"; text = "URL"; ObjectID = "sbc-Sg-OJc"; */
 "sbc-Sg-OJc.text" = "URL";
 
 /* Class = "UILabel"; text = "Terms of use"; ObjectID = "T0y-Dl-ay3"; */
-"T0y-Dl-ay3.text" = "شروط الاستخدام";
+"T0y-Dl-ay3.text" = "Warunki korzystania z serwisu";
 
 /* Class = "UILabel"; text = "Text"; ObjectID = "TiR-n5-zqZ"; */
-"TiR-n5-zqZ.text" = "نص";
+"TiR-n5-zqZ.text" = "Tekst";
 
 /* Class = "UILabel"; text = "Beep if scan is successful"; ObjectID = "tUT-zv-80F"; */
-"tUT-zv-80F.text" = "صفير إذا نجح المسح";
+"tUT-zv-80F.text" = "Wibruj, jeśli skanowanie zakończy się powodzeniem";
 
 /* Class = "UILabel"; text = "Beep"; ObjectID = "V56-PH-ld0"; */
-"V56-PH-ld0.text" = "زمارة";
+"V56-PH-ld0.text" = "Brzęczyk";
 
 /* Class = "UILabel"; text = "Package"; ObjectID = "vDA-Zi-b6E"; */
-"vDA-Zi-b6E.text" = "صفقة";
+"vDA-Zi-b6E.text" = "Pakiet";
 
 /* Class = "UILabel"; text = "No History\nCreate a QR Code"; ObjectID = "vf7-iC-AOv"; */
-"vf7-iC-AOv.text" = "لا تاريخ\nقم بإنشاء رمز QR";
+"vf7-iC-AOv.text" = "Brak historii\nUtwórz kod QR";
 
 /* Class = "UILabel"; text = "https://www.google.com"; ObjectID = "X9r-GN-eob"; */
 "X9r-GN-eob.text" = "https://www.google.com";
 
 /* Class = "UILabel"; text = "Upgrade to premium"; ObjectID = "YMV-dS-gKL"; */
-"YMV-dS-gKL.text" = "الترقية إلى المميزة";
+"YMV-dS-gKL.text" = "Przejdź na wersję premium";
 

@@ -18,7 +18,19 @@
 "Delete" = "删除";
 
 /* (No Comment) */
+"Edit" = "Edit";
+
+/* (No Comment) */
+"Locked" = "Locked";
+
+/* (No Comment) */
+"Please enter the text" = "Please enter the text";
+
+/* (No Comment) */
 "Please purchase membership to use this application." = "请购买会员才能使用此应用程序。";
+
+/* (No Comment) */
+"Premium" = "Premium";
 
 /* (No Comment) */
 "Scanning not supported" = "不支持扫描";

@@ -82,7 +82,16 @@ class PrefsManager:NSObject{
         return getString(key: "avatar")
     }
     
-
+    class func setFirstOpen(val: Int)
+    {
+        setInt(key: "firstopen", value: val)
+    }
+    
+    class func getFirstOpen() -> Int
+    {
+        return getInt(key: "firstopen")
+    }
+    
     class func setVibrate(val : Int)
     {
         setInt(key: "vibrate", value: val)

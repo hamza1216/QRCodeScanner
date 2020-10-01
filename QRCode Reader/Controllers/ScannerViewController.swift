@@ -106,7 +106,10 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
         IAPHelper.getSharedInstance().checkReceipt(completion: { (result) in
             self.hud.dismiss()
             if(result == 3){
-                self.launchSubscribeController()
+                if PrefsManager.getFirstOpen() != 1 {
+                    self.launchSubscribeController()
+                    PrefsManager.setFirstOpen(val: 1)
+                }
             }
         })
  

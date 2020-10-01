@@ -44,8 +44,21 @@
 
 /* Begin PBXFileReference section */
 		10A368C3CF0507BE064A76F6 /* Pods-QRCode Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode Reader.debug.xcconfig"; path = "Target Support Files/Pods-QRCode Reader/Pods-QRCode Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		18511E60252636540054AB82 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		18511E61252636550054AB82 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		228C094B0D091F9DD6F57904 /* Pods-QRCode Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode Reader.release.xcconfig"; path = "Target Support Files/Pods-QRCode Reader/Pods-QRCode Reader.release.xcconfig"; sourceTree = "<group>"; };
 		2A30F3E1C11043026B41B006 /* Pods_QRCode_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCode_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6106EBE250ECF1A008AEE88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6106EBF250ED400008AEE88 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		A6106EC0250ED405008AEE88 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A6106EC1250ED411008AEE88 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Main.strings; sourceTree = "<group>"; };
+		A6106EC2250ED41A008AEE88 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		A6106EC3250ED41D008AEE88 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		A6106EC4250ED421008AEE88 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		A6106EC5250ED42B008AEE88 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		A6106EC6250ED430008AEE88 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		A6106EC7250ED435008AEE88 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Main.strings; sourceTree = "<group>"; };
+		A6106EC8250ED43A008AEE88 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
 		A64CB67E24F3DBDA00C49D5C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A64CB69524F40E3400C49D5C /* ScannerOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerOverlay.swift; sourceTree = "<group>"; };
 		A64CB69824F41FFA00C49D5C /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
@@ -68,9 +81,6 @@
 		A64CE72924F814B000CFD8FF /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A64EC29624FBC4B80038CC80 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		A65283FB24F8D8DF00AD4E10 /* IAPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
-		A652840724F8F30400AD4E10 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
-		A652840824F8F30800AD4E10 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
-		A652840E24F8F32800AD4E10 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Main.strings; sourceTree = "<group>"; };
 		A6568B4E24F90D0100AC7172 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A6576EAB250A6F34007B83D0 /* MyQRCodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQRCodesViewController.swift; sourceTree = "<group>"; };
 		A6576EAD250A76F9007B83D0 /* CreateQRCoeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQRCoeViewController.swift; sourceTree = "<group>"; };
@@ -92,14 +102,6 @@
 		A6867E9B24F532AA0017B9D0 /* PrefsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefsManager.swift; sourceTree = "<group>"; };
 		A6867E9D24F547C40017B9D0 /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
 		A6867E9F24F5760D0017B9D0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		A692523825004715007AE80D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
-		A692523A25004781007AE80D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		A692523E250048E4007AE80D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
-		A692524025024177007AE80D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
-		A692524225024212007AE80D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		A692524425024228007AE80D /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Main.strings; sourceTree = "<group>"; };
-		A6CFD8AA250D7644002D1A0D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ko; path = ko.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6CFD8AB250D76EC002D1A0D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6EA1D3524FAF0120025305D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -333,6 +335,7 @@
 				ko,
 				nb,
 				da,
+				pl,
 			);
 			mainGroup = A657BD1124F288FB007E49C3;
 			productRefGroup = A657BD1B24F288FE007E49C3 /* Products */;
@@ -452,6 +455,7 @@
 				A64CE72824F814B000CFD8FF /* nb */,
 				A64CE72924F814B000CFD8FF /* tr */,
 				A6568B4E24F90D0100AC7172 /* en */,
+				18511E61252636550054AB82 /* pl */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -460,17 +464,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				A657BD2424F28902007E49C3 /* Base */,
-				A652840724F8F30400AD4E10 /* it */,
-				A652840824F8F30800AD4E10 /* de */,
-				A652840E24F8F32800AD4E10 /* nb */,
-				A692523825004715007AE80D /* ar */,
-				A692523A25004781007AE80D /* en */,
-				A692523E250048E4007AE80D /* tr */,
-				A692524025024177007AE80D /* fr */,
-				A692524225024212007AE80D /* zh-Hans */,
-				A692524425024228007AE80D /* da */,
-				A6CFD8AA250D7644002D1A0D /* ko */,
-				A6CFD8AB250D76EC002D1A0D /* ja */,
+				A6106EBE250ECF1A008AEE88 /* en */,
+				A6106EBF250ED400008AEE88 /* ar */,
+				A6106EC0250ED405008AEE88 /* zh-Hans */,
+				A6106EC1250ED411008AEE88 /* da */,
+				A6106EC2250ED41A008AEE88 /* fr */,
+				A6106EC3250ED41D008AEE88 /* de */,
+				A6106EC4250ED421008AEE88 /* it */,
+				A6106EC5250ED42B008AEE88 /* ja */,
+				A6106EC6250ED430008AEE88 /* ko */,
+				A6106EC7250ED435008AEE88 /* nb */,
+				A6106EC8250ED43A008AEE88 /* tr */,
+				18511E60252636540054AB82 /* pl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -610,14 +615,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 3MYTF6GBLA;
 				INFOPLIST_FILE = "QRCode Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nisos.qrcodereader;
 				PRODUCT_NAME = "Fast QR Code & Barcode Scanner";
 				SWIFT_VERSION = 5.0;
@@ -631,14 +636,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 3MYTF6GBLA;
 				INFOPLIST_FILE = "QRCode Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nisos.qrcodereader;
 				PRODUCT_NAME = "Fast QR Code & Barcode Scanner";
 				SWIFT_VERSION = 5.0;

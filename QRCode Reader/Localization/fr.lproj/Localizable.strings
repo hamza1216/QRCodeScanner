@@ -18,7 +18,19 @@
 "Delete" = "Supprimer";
 
 /* (No Comment) */
+"Edit" = "Éditer";
+
+/* (No Comment) */
+"Locked" = "Fermé à clé";
+
+/* (No Comment) */
+"Please enter the text" = "Veuillez saisir le texte";
+
+/* (No Comment) */
 "Please purchase membership to use this application." = "Veuillez acheter un abonnement pour utiliser cette application.";
+
+/* (No Comment) */
+"Premium" = "Prime";
 
 /* (No Comment) */
 "Scanning not supported" = "Numérisation non prise en charge";

@@ -127,21 +127,25 @@ class SubscribeViewController: UIViewController {
         SwiftyStoreKit.restorePurchases(atomically: true) { results in
             self.hud.dismiss()
             if results.restoreFailedPurchases.count > 0 {
-                print("Restore Failed: \(results.restoreFailedPurchases)")
+                //print("Restore Failed: \(results.restoreFailedPurchases)")
+                AppHelper.showAlert(vc: self, NSLocalizedString("Restore Failed", comment: ""), "")
+                print("Restore Failed")
             }
             else if results.restoredPurchases.count > 0 {
-                print("Restore Success: \(results.restoredPurchases)")
+                //print("Restore Success: \(results.restoredPurchases)")
+                AppHelper.showAlert(vc: self, NSLocalizedString("Restore Success", comment: ""), "")
+                print("Restore Success")
             }
             else {
                 print("Nothing to Restore")
             }
-            for purchase in results.restoredPurchases {
-                if purchase.needsFinishTransaction {
-                    // Deliver content from server, then:
-                    SwiftyStoreKit.finishTransaction(purchase.transaction)
-                    print("Restore transaction")
-                }
-            }
+//            for purchase in results.restoredPurchases {
+//                if purchase.needsFinishTransaction {
+//                    // Deliver content from server, then:
+//                    SwiftyStoreKit.finishTransaction(purchase.transaction)
+//                    print("Restore transaction")
+//                }
+//            }
         }
     }
     
