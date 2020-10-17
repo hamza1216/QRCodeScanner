@@ -497,6 +497,54 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovR-aj-aCB" userLabel="ButtonView">
+                                <rect key="frame" x="16" y="479" width="343" height="124"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xB1-gQ-EyX" customClass="RoundButton" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="52"/>
+                                        <color key="backgroundColor" red="0.58039215690000001" green="0.37254901959999998" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="52" id="Rfs-MI-zTb"/>
+                                            <constraint firstAttribute="height" constant="52" id="hs5-v6-GHB"/>
+                                        </constraints>
+                                        <state key="normal" title="Upload Photo"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onUploadPhotoPressed:" destination="ewn-cH-MvV" eventType="touchUpInside" id="45Y-Yf-sWn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8h8-3P-al6" customClass="RoundButton" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="72" width="343" height="52"/>
+                                        <color key="backgroundColor" red="0.94901960780000005" green="0.34509803919999998" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="52" id="HRz-GI-AbT"/>
+                                        </constraints>
+                                        <state key="normal" title="Upload Document"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onUploadDocumentPressed:" destination="ewn-cH-MvV" eventType="touchUpInside" id="yjs-nR-vwB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="8h8-3P-al6" firstAttribute="top" secondItem="xB1-gQ-EyX" secondAttribute="bottom" constant="20" id="3zI-SY-0nE"/>
+                                    <constraint firstAttribute="bottom" secondItem="8h8-3P-al6" secondAttribute="bottom" id="5Re-Iv-QdQ"/>
+                                    <constraint firstItem="xB1-gQ-EyX" firstAttribute="leading" secondItem="ovR-aj-aCB" secondAttribute="leading" id="7Fl-g7-en9"/>
+                                    <constraint firstItem="8h8-3P-al6" firstAttribute="leading" secondItem="ovR-aj-aCB" secondAttribute="leading" id="7YM-24-7p1"/>
+                                    <constraint firstItem="xB1-gQ-EyX" firstAttribute="top" secondItem="ovR-aj-aCB" secondAttribute="top" id="O3B-0Q-Ksf"/>
+                                    <constraint firstAttribute="trailing" secondItem="8h8-3P-al6" secondAttribute="trailing" id="cFo-jt-RLN"/>
+                                    <constraint firstAttribute="trailing" secondItem="xB1-gQ-EyX" secondAttribute="trailing" id="dpy-Dt-zXG"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bti-pe-gJ3"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -511,8 +559,10 @@
                             <constraint firstItem="urX-Ew-Su1" firstAttribute="leading" secondItem="Bti-pe-gJ3" secondAttribute="leading" constant="16" id="Fve-Ow-qPe"/>
                             <constraint firstItem="sbc-Sg-OJc" firstAttribute="leading" secondItem="Bti-pe-gJ3" secondAttribute="leading" constant="16" id="Ink-9F-67X"/>
                             <constraint firstItem="tPK-KO-Hij" firstAttribute="top" secondItem="8XU-BE-eEV" secondAttribute="bottom" constant="8" id="NSZ-c2-5z1"/>
+                            <constraint firstItem="Bti-pe-gJ3" firstAttribute="trailing" secondItem="ovR-aj-aCB" secondAttribute="trailing" constant="16" id="QAM-DV-ge9"/>
                             <constraint firstItem="urX-Ew-Su1" firstAttribute="top" secondItem="2gJ-UB-mpu" secondAttribute="bottom" constant="8" id="TgI-fW-NhE"/>
                             <constraint firstItem="tPK-KO-Hij" firstAttribute="leading" secondItem="Bti-pe-gJ3" secondAttribute="leading" constant="16" id="Tr4-BH-5Vo"/>
+                            <constraint firstItem="Bti-pe-gJ3" firstAttribute="bottom" secondItem="ovR-aj-aCB" secondAttribute="bottom" constant="20" id="dyN-VO-GVB"/>
                             <constraint firstItem="Bti-pe-gJ3" firstAttribute="trailing" secondItem="365-qH-Lh1" secondAttribute="trailing" constant="16" id="f2L-O9-UYU"/>
                             <constraint firstItem="a6f-8H-9gP" firstAttribute="top" secondItem="365-qH-Lh1" secondAttribute="bottom" constant="8" id="lXq-4b-5NY"/>
                             <constraint firstItem="2gJ-UB-mpu" firstAttribute="top" secondItem="tPK-KO-Hij" secondAttribute="bottom" constant="8" id="tOs-cq-7gi"/>
@@ -523,6 +573,7 @@
                             <constraint firstItem="365-qH-Lh1" firstAttribute="top" secondItem="RmZ-WB-QTs" secondAttribute="bottom" constant="40" id="wSH-6n-tWe"/>
                             <constraint firstItem="RmZ-WB-QTs" firstAttribute="centerX" secondItem="lff-X8-pXy" secondAttribute="centerX" id="xOS-VL-J8m"/>
                             <constraint firstItem="365-qH-Lh1" firstAttribute="top" secondItem="sbc-Sg-OJc" secondAttribute="bottom" constant="8" id="xUf-Zt-nfN"/>
+                            <constraint firstItem="ovR-aj-aCB" firstAttribute="leading" secondItem="Bti-pe-gJ3" secondAttribute="leading" constant="16" id="yci-bU-X3I"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="URL" id="l7p-LR-iqE">
@@ -546,12 +597,13 @@
                         <outlet property="thirdLabel" destination="8XU-BE-eEV" id="LDY-Nm-hRf"/>
                         <outlet property="thirdTextField" destination="uJq-rK-uVg" id="Rfb-xr-L0G"/>
                         <outlet property="thirdView" destination="tPK-KO-Hij" id="lVe-j4-Y9u"/>
+                        <outlet property="uploadButtonView" destination="ovR-aj-aCB" id="e0A-XG-pOQ"/>
                         <outlet property="urlTextField" destination="7aw-t8-uDg" id="0Go-0X-dSr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btT-Jp-K7z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5440.8000000000002" y="1616.7487684729065"/>
+            <point key="canvasLocation" x="5440.8000000000002" y="1616.041979010495"/>
         </scene>
         <!--Select-->
         <scene sceneID="wP3-nk-r8k">
@@ -1541,7 +1593,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Upgrade to premium" id="gJJ-uU-wrl">
-                        <barButtonItem key="leftBarButtonItem" image="chevron.left" catalog="system" id="0ze-6f-2mI">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="ic_arrow_left" id="0ze-6f-2mI">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="onCancelPressed:" destination="Tjr-q7-7HY" id="iLP-Cl-MWa"/>
@@ -1753,7 +1805,7 @@ Create a QR Code</string>
         <scene sceneID="Z3k-1p-VC3">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PZs-Hj-Mct" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="History" image="timer" catalog="system" id="7gJ-nJ-6VF"/>
+                    <tabBarItem key="tabBarItem" title="History" image="ic_timer" id="7gJ-nJ-6VF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="mYx-wx-i20">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -1888,14 +1940,20 @@ Create a QR Code</string>
         <designable name="0s9-hA-BeU">
             <size key="intrinsicContentSize" width="113" height="32"/>
         </designable>
+        <designable name="8h8-3P-al6">
+            <size key="intrinsicContentSize" width="124" height="30"/>
+        </designable>
         <designable name="EsG-an-bXo">
             <size key="intrinsicContentSize" width="131" height="32"/>
+        </designable>
+        <designable name="xB1-gQ-EyX">
+            <size key="intrinsicContentSize" width="94" height="30"/>
         </designable>
     </designables>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="checkmark.circle" catalog="system" width="128" height="121"/>
-        <image name="chevron.left" catalog="system" width="96" height="128"/>
+        <image name="ic_arrow_left" width="32" height="32"/>
         <image name="ic_bell" width="20.5" height="22.5"/>
         <image name="ic_copy" width="21" height="21"/>
         <image name="ic_create" width="27.5" height="27"/>
@@ -1917,7 +1975,6 @@ Create a QR Code</string>
         <image name="ic_vibrate" width="28.5" height="21.5"/>
         <image name="ic_web" width="18.5" height="18.5"/>
         <image name="plus" catalog="system" width="128" height="113"/>
-        <image name="timer" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

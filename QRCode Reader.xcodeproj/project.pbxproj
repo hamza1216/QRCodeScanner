@@ -44,11 +44,13 @@
 
 /* Begin PBXFileReference section */
 		10A368C3CF0507BE064A76F6 /* Pods-QRCode Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode Reader.debug.xcconfig"; path = "Target Support Files/Pods-QRCode Reader/Pods-QRCode Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		1816524F253B47A900B26044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		18511E60252636540054AB82 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
 		18511E61252636550054AB82 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18511E6525266C9D0054AB82 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		18511E6625266C9E0054AB82 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		228C094B0D091F9DD6F57904 /* Pods-QRCode Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode Reader.release.xcconfig"; path = "Target Support Files/Pods-QRCode Reader/Pods-QRCode Reader.release.xcconfig"; sourceTree = "<group>"; };
 		2A30F3E1C11043026B41B006 /* Pods_QRCode_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCode_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6106EBE250ECF1A008AEE88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6106EBF250ED400008AEE88 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		A6106EC0250ED405008AEE88 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		A6106EC1250ED411008AEE88 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Main.strings; sourceTree = "<group>"; };
@@ -336,6 +338,7 @@
 				nb,
 				da,
 				pl,
+				"zh-Hant",
 			);
 			mainGroup = A657BD1124F288FB007E49C3;
 			productRefGroup = A657BD1B24F288FE007E49C3 /* Products */;
@@ -456,6 +459,7 @@
 				A64CE72924F814B000CFD8FF /* tr */,
 				A6568B4E24F90D0100AC7172 /* en */,
 				18511E61252636550054AB82 /* pl */,
+				18511E6625266C9E0054AB82 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -464,7 +468,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A657BD2424F28902007E49C3 /* Base */,
-				A6106EBE250ECF1A008AEE88 /* en */,
 				A6106EBF250ED400008AEE88 /* ar */,
 				A6106EC0250ED405008AEE88 /* zh-Hans */,
 				A6106EC1250ED411008AEE88 /* da */,
@@ -476,6 +479,8 @@
 				A6106EC7250ED435008AEE88 /* nb */,
 				A6106EC8250ED43A008AEE88 /* tr */,
 				18511E60252636540054AB82 /* pl */,
+				18511E6525266C9D0054AB82 /* zh-Hant */,
+				1816524F253B47A900B26044 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -615,14 +620,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = 3MYTF6GBLA;
 				INFOPLIST_FILE = "QRCode Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.5;
+				MARKETING_VERSION = 2.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nisos.qrcodereader;
 				PRODUCT_NAME = "Fast QR Code & Barcode Scanner";
 				SWIFT_VERSION = 5.0;
@@ -636,14 +641,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = 3MYTF6GBLA;
 				INFOPLIST_FILE = "QRCode Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.5;
+				MARKETING_VERSION = 2.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nisos.qrcodereader;
 				PRODUCT_NAME = "Fast QR Code & Barcode Scanner";
 				SWIFT_VERSION = 5.0;

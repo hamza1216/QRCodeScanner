@@ -30,6 +30,8 @@ class CreateQRCoeViewController: UIViewController {
     @IBOutlet weak var fourthView: ExtensionView!
     @IBOutlet weak var fourthTextField: UITextField!
     
+    @IBOutlet weak var uploadButtonView: UIView!
+    
 
     private var type: String = "url"
     private var itemTitle: String = "Url"
@@ -56,6 +58,7 @@ class CreateQRCoeViewController: UIViewController {
             self.navigationItem.title = "Email"
             self.avatarName = "ic_email"
             
+            // check if new or edit mode
             if codeData == nil {
                 self.urlTextField.text = ""
             }
@@ -82,7 +85,8 @@ class CreateQRCoeViewController: UIViewController {
             
             self.fourthLabel.isHidden = false
             self.fourthView.isHidden = false
-
+            
+            self.uploadButtonView.isHidden = true
         }
         
         else if type == "doc" {
@@ -106,6 +110,8 @@ class CreateQRCoeViewController: UIViewController {
             
             self.fourthLabel.isHidden = true
             self.fourthView.isHidden = true
+            
+            self.uploadButtonView.isHidden = true
 
         }
         else if type == "facebook" {
@@ -129,6 +135,7 @@ class CreateQRCoeViewController: UIViewController {
             self.fourthLabel.isHidden = true
             self.fourthView.isHidden = true
 
+            self.uploadButtonView.isHidden = true
         }
         else if type == "call" {
             hexcolor = "#6BD167"
@@ -155,6 +162,8 @@ class CreateQRCoeViewController: UIViewController {
             
             self.fourthLabel.isHidden = true
             self.fourthView.isHidden = true
+            
+            self.uploadButtonView.isHidden = true
 
         }
         else if type == "instagram" {
@@ -177,6 +186,8 @@ class CreateQRCoeViewController: UIViewController {
             
             self.fourthLabel.isHidden = true
             self.fourthView.isHidden = true
+            
+            self.uploadButtonView.isHidden = true
         }
         else {
             hexcolor = "#039FC3"
@@ -199,6 +210,8 @@ class CreateQRCoeViewController: UIViewController {
             
             self.fourthLabel.isHidden = true
             self.fourthView.isHidden = true
+            
+            self.uploadButtonView.isHidden = true
 
         }
         self.avatarImageView.image = UIImage(named: self.avatarName)
@@ -211,6 +224,14 @@ class CreateQRCoeViewController: UIViewController {
     
     func setCodeData(codeData: MyCodeData) {
         self.codeData = codeData
+    }
+    
+    @IBAction func onUploadPhotoPressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onUploadDocumentPressed(_ sender: Any) {
+        
     }
     
     @IBAction func onDonePressed(_ sender: Any) {

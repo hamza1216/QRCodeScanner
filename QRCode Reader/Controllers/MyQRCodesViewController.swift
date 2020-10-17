@@ -162,7 +162,7 @@ class MyQRCodesViewController: UIViewController, UITableViewDataSource, UITableV
     
 
     @IBAction func onAddQRCodePressed(_ sender: Any) {
-        
+        /*
         if(IAPHelper.getSharedInstance().purchased != 1){
             DispatchQueue.main.async{
                 //self.navigateResultViewController(result: code)
@@ -170,6 +170,7 @@ class MyQRCodesViewController: UIViewController, UITableViewDataSource, UITableV
             }
             return
         }
+ */
  
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = mainStoryboard.instantiateViewController(withIdentifier: "selectTypeViewController")        

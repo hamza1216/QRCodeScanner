@@ -1,0 +1,165 @@
+/* Class = "UIButton"; normalTitle = "Subscribe Now"; ObjectID = "0s9-hA-BeU"; */
+"0s9-hA-BeU.normalTitle" = "现在订阅";
+
+/* Class = "UILabel"; text = "Locked"; ObjectID = "1Lz-rg-uHF"; */
+"1Lz-rg-uHF.text" = "已锁定";
+
+/* Class = "UILabel"; text = "Body"; ObjectID = "2gJ-UB-mpu"; */
+"2gJ-UB-mpu.text" = "主体";
+
+/* Class = "UILabel"; text = "Save QR Code to Cameraroll"; ObjectID = "5TW-kN-4MT"; */
+"5TW-kN-4MT.text" = "保存二维码至相册";
+
+/* Class = "UILabel"; text = "No History"; ObjectID = "5us-YD-f5K"; */
+"5us-YD-f5K.text" = "没有历史记录";
+
+/* Class = "UITextField"; text = "https://"; ObjectID = "7aw-t8-uDg"; */
+"7aw-t8-uDg.text" = "https://";
+
+/* Class = "UITabBarItem"; title = "History"; ObjectID = "7gJ-nJ-6VF"; */
+"7gJ-nJ-6VF.title" = "历史记录";
+
+/* Class = "UILabel"; text = "Save history for scanning"; ObjectID = "7t9-r8-Fdk"; */
+"7t9-r8-Fdk.text" = "保存历史记录用作扫描";
+
+/* Class = "UILabel"; text = "Jan 2, 2020"; ObjectID = "8Lv-Aj-HNa"; */
+"8Lv-Aj-HNa.text" = "Jan 2, 2020";
+
+/* Class = "UILabel"; text = "Subject"; ObjectID = "8XU-BE-eEV"; */
+"8XU-BE-eEV.text" = "主题";
+
+/* Class = "UILabel"; text = "1 Year Plan"; ObjectID = "49E-z0-Atj"; */
+"49E-z0-Atj.text" = "1年计划";
+
+/* Class = "UILabel"; text = "CC"; ObjectID = "a6f-8H-9gP"; */
+"a6f-8H-9gP.text" = "CC";
+
+/* Class = "UILabel"; text = "https://www.google.com"; ObjectID = "agW-07-ipv"; */
+"agW-07-ipv.text" = "https://www.google.com";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Aia-Tt-Via"; */
+"Aia-Tt-Via.title" = "完成";
+
+/* Class = "UINavigationItem"; title = "My QR Codes"; ObjectID = "asX-M3-9QA"; */
+"asX-M3-9QA.title" = "我的二维码";
+
+/* Class = "UILabel"; text = "Actions"; ObjectID = "BEL-A4-vEa"; */
+"BEL-A4-vEa.text" = "操作";
+
+/* Class = "UILabel"; text = "Scan & Create 15 types of QR Codes"; ObjectID = "BlL-un-aiF"; */
+"BlL-un-aiF.text" = "扫描 & 创建15种二维码";
+
+/* Class = "UILabel"; text = "Subscription"; ObjectID = "ck7-xF-I2q"; */
+"ck7-xF-I2q.text" = "订阅";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "Dma-t1-epY"; */
+"Dma-t1-epY.title" = "设置";
+
+/* Class = "UILabel"; text = "History"; ObjectID = "EbL-6E-4yr"; */
+"EbL-6E-4yr.text" = "历史记录";
+
+/* Class = "UITableViewSection"; headerTitle = "Account"; ObjectID = "EOF-sa-ryD"; */
+"EOF-sa-ryD.headerTitle" = "账户";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchase"; ObjectID = "EsG-an-bXo"; */
+"EsG-an-bXo.normalTitle" = "恢复购买";
+
+/* Class = "UILabel"; text = "Open in Browser"; ObjectID = "Eyx-SS-cR0"; */
+"Eyx-SS-cR0.text" = "在浏览器中打开";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "FJP-lc-HiF"; */
+"FJP-lc-HiF.text" = "脸书";
+
+/* Class = "UINavigationItem"; title = "Upgrade to premium"; ObjectID = "gJJ-uU-wrl"; */
+"gJJ-uU-wrl.title" = "升级到高级版";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "hB0-yo-fLR"; */
+"hB0-yo-fLR.title" = "设置";
+
+/* Class = "UILabel"; text = "Jan 2, 2020"; ObjectID = "hBs-10-b5P"; */
+"hBs-10-b5P.text" = "2020年1月2日";
+
+/* Class = "UINavigationItem"; title = "History"; ObjectID = "Hev-EQ-Qgn"; */
+"Hev-EQ-Qgn.title" = "历史记录";
+
+/* Class = "UILabel"; text = "24/7 priority support"; ObjectID = "iaH-XN-xLe"; */
+"iaH-XN-xLe.text" = "7x24小时优先支持";
+
+/* Class = "UILabel"; text = "Made with 💜 by Nisos UK Limited"; ObjectID = "iWJ-gv-geH"; */
+"iWJ-gv-geH.text" = "由 Nisos UK Limited 创作💜";
+
+/* Class = "UITabBarItem"; title = "Scanner"; ObjectID = "jmT-Tg-66q"; */
+"jmT-Tg-66q.title" = "扫描器";
+
+/* Class = "UITableViewSection"; headerTitle = "General"; ObjectID = "k3e-bp-DR0"; */
+"k3e-bp-DR0.headerTitle" = "常规";
+
+/* Class = "UILabel"; text = "$29.99 / year"; ObjectID = "k4T-0W-LEl"; */
+"k4T-0W-LEl.text" = "$29.99 / 年";
+
+/* Class = "UINavigationItem"; title = "URL"; ObjectID = "l7p-LR-iqE"; */
+"l7p-LR-iqE.title" = "URL";
+
+/* Class = "UITableViewSection"; headerTitle = "Others"; ObjectID = "lNm-u6-Ck1"; */
+"lNm-u6-Ck1.headerTitle" = "其他";
+
+/* Class = "UILabel"; text = "Scan barcodes and shop on Google or Amazon"; ObjectID = "loH-Lh-gli"; */
+"loH-Lh-gli.text" = "扫描购买于 Google 或 Amazon 的条形码";
+
+/* Class = "UILabel"; text = "Your QR code scan is a tap away!"; ObjectID = "lyN-wI-hfw"; */
+"lyN-wI-hfw.text" = "你的二维码只有一尺之远";
+
+/* Class = "UILabel"; text = "Vibrate if scan is successful"; ObjectID = "mOu-5E-ZmF"; */
+"mOu-5E-ZmF.text" = "扫描成功震动";
+
+/* Class = "UITabBarItem"; title = "My Codes"; ObjectID = "MRe-IS-AhD"; */
+"MRe-IS-AhD.title" = "我的二维码";
+
+/* Class = "UINavigationItem"; title = "QR Code Detail"; ObjectID = "n9D-jS-1kW"; */
+"n9D-jS-1kW.title" = "二维码详情";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "Nr9-l9-EKU"; */
+"Nr9-l9-EKU.text" = "隐私政策";
+
+/* Class = "UILabel"; text = "Share QR Code"; ObjectID = "obz-bn-ffo"; */
+"obz-bn-ffo.text" = "分享二维码";
+
+/* Class = "UILabel"; text = "Vibrate"; ObjectID = "OOg-Hx-IqM"; */
+"OOg-Hx-IqM.text" = "震动";
+
+/* Class = "UILabel"; text = "Result"; ObjectID = "PqD-DC-HLN"; */
+"PqD-DC-HLN.text" = "结果";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "qCY-WI-Jup"; */
+"qCY-WI-Jup.title" = "返回";
+
+/* Class = "UINavigationItem"; title = "Select"; ObjectID = "QYI-qT-MY3"; */
+"QYI-qT-MY3.title" = "选择";
+
+/* Class = "UILabel"; text = "URL"; ObjectID = "sbc-Sg-OJc"; */
+"sbc-Sg-OJc.text" = "URL";
+
+/* Class = "UILabel"; text = "Terms of use"; ObjectID = "T0y-Dl-ay3"; */
+"T0y-Dl-ay3.text" = "使用条款";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "TiR-n5-zqZ"; */
+"TiR-n5-zqZ.text" = "文字";
+
+/* Class = "UILabel"; text = "Beep if scan is successful"; ObjectID = "tUT-zv-80F"; */
+"tUT-zv-80F.text" = "扫描成功发出嘟嘟响";
+
+/* Class = "UILabel"; text = "Beep"; ObjectID = "V56-PH-ld0"; */
+"V56-PH-ld0.text" = "嘟嘟";
+
+/* Class = "UILabel"; text = "Package"; ObjectID = "vDA-Zi-b6E"; */
+"vDA-Zi-b6E.text" = "打包";
+
+/* Class = "UILabel"; text = "No History\nCreate a QR Code"; ObjectID = "vf7-iC-AOv"; */
+"vf7-iC-AOv.text" = "没有历史记录\n创建二维码";
+
+/* Class = "UILabel"; text = "https://www.google.com"; ObjectID = "X9r-GN-eob"; */
+"X9r-GN-eob.text" = "https://www.google.com";
+
+/* Class = "UILabel"; text = "Upgrade to premium"; ObjectID = "YMV-dS-gKL"; */
+"YMV-dS-gKL.text" = "升级到高级版";
+
