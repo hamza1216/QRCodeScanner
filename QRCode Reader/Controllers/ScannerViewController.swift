@@ -146,7 +146,7 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     func found(code: String) {
         print(code)
         playSoundAndVibrate()
-
+/*
         if(IAPHelper.getSharedInstance().purchased != 1){
             DispatchQueue.main.async{
                 //self.navigateResultViewController(result: code)
@@ -154,7 +154,7 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
             }
             return
         }
-
+*/5     
         let historyState = PrefsManager.getHistory()
         if historyState == 0 {
             appendDatabase(code: code)

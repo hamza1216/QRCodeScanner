@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="83f-7l-A39">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ScannerViewController" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eeR-Zi-BU5" userLabel="ControlView" customClass="ExtensionView" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
-                                <rect key="frame" x="141.5" y="548" width="92" height="50"/>
+                                <rect key="frame" x="141.66666666666666" y="659" width="92" height="50"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Urm-IP-doj">
                                         <rect key="frame" x="30" y="9" width="32" height="32"/>
@@ -89,7 +89,7 @@
             <objects>
                 <viewController storyboardIdentifier="resultViewController" id="kEX-6d-EIh" customClass="ResultViewController" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kjA-bf-Qf6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dv3-P2-02J" userLabel="ResultTextView" customClass="ExtensionView" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
@@ -123,7 +123,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dq5-lm-N8v" userLabel="BottomView" customClass="ExtensionView" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
-                                <rect key="frame" x="16" y="457" width="343" height="150"/>
+                                <rect key="frame" x="16" y="524" width="343" height="150"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1WP-bp-jlU" userLabel="CopyView">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
@@ -136,7 +136,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Save QR Code to Cameraroll" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5TW-kN-4MT">
-                                                <rect key="frame" x="54" y="15.5" width="206" height="19"/>
+                                                <rect key="frame" x="54" y="15.666666666666629" width="206" height="19"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -186,7 +186,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share QR Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obz-bn-ffo">
-                                                <rect key="frame" x="54" y="15.5" width="111.5" height="19"/>
+                                                <rect key="frame" x="54.000000000000007" y="15.666666666666629" width="111.66666666666669" height="19"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -236,7 +236,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open in Browser" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyx-SS-cR0">
-                                                <rect key="frame" x="54" y="15.5" width="119.5" height="19"/>
+                                                <rect key="frame" x="54.000000000000007" y="15.666666666666629" width="119.66666666666669" height="19"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -292,14 +292,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bh9-6S-VEW">
-                                <rect key="frame" x="102.5" y="61" width="170" height="170"/>
+                                <rect key="frame" x="102.66666666666669" y="61" width="170" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="jBK-mf-XRl"/>
                                     <constraint firstAttribute="height" constant="170" id="zK0-LM-OcX"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEL-A4-vEa">
-                                <rect key="frame" x="16" y="416" width="57" height="21"/>
+                                <rect key="frame" x="16" y="483" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -345,14 +345,14 @@
             <objects>
                 <viewController storyboardIdentifier="createQRCodeViewController" id="ewn-cH-MvV" customClass="CreateQRCoeViewController" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lff-X8-pXy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RmZ-WB-QTs" customClass="ExtensionView" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
-                                <rect key="frame" x="112.5" y="36" width="150" height="150"/>
+                                <rect key="frame" x="112.66666666666669" y="36" width="150" height="150"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_link_medium" translatesAutoresizingMaskIntoConstraints="NO" id="E2f-He-ThO">
-                                        <rect key="frame" x="37.5" y="37.5" width="75" height="75"/>
+                                        <rect key="frame" x="37.333333333333329" y="37.666666666666657" width="75" height="75"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="75" id="8dm-6g-we4"/>
@@ -374,7 +374,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="URL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbc-Sg-OJc">
-                                <rect key="frame" x="16" y="198.5" width="30.5" height="19.5"/>
+                                <rect key="frame" x="16" y="198.66666666666669" width="30.666666666666671" height="19.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -405,7 +405,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6f-8H-9gP">
-                                <rect key="frame" x="16" y="286" width="22.5" height="20"/>
+                                <rect key="frame" x="16" y="286" width="22.666666666666671" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -436,7 +436,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XU-BE-eEV">
-                                <rect key="frame" x="16" y="374" width="55.5" height="20"/>
+                                <rect key="frame" x="15.999999999999996" y="374" width="55.666666666666657" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -467,7 +467,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gJ-UB-mpu">
-                                <rect key="frame" x="16" y="462" width="37.5" height="20"/>
+                                <rect key="frame" x="15.999999999999996" y="462" width="37.666666666666657" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -498,13 +498,12 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovR-aj-aCB" userLabel="ButtonView">
-                                <rect key="frame" x="16" y="479" width="343" height="124"/>
+                                <rect key="frame" x="16" y="546" width="343" height="124"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xB1-gQ-EyX" customClass="RoundButton" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="52"/>
-                                        <color key="backgroundColor" red="0.58039215690000001" green="0.37254901959999998" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.94901960780000005" green="0.34509803919999998" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="52" id="Rfs-MI-zTb"/>
                                             <constraint firstAttribute="height" constant="52" id="hs5-v6-GHB"/>
                                         </constraints>
                                         <state key="normal" title="Upload Photo"/>
@@ -517,11 +516,11 @@
                                             <action selector="onUploadPhotoPressed:" destination="ewn-cH-MvV" eventType="touchUpInside" id="45Y-Yf-sWn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8h8-3P-al6" customClass="RoundButton" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uon-w6-vU3" customClass="RoundButton" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="72" width="343" height="52"/>
-                                        <color key="backgroundColor" red="0.94901960780000005" green="0.34509803919999998" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.58039215690000001" green="0.37254901959999998" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="52" id="HRz-GI-AbT"/>
+                                            <constraint firstAttribute="height" constant="52" id="hm4-TP-1SH"/>
                                         </constraints>
                                         <state key="normal" title="Upload Document"/>
                                         <userDefinedRuntimeAttributes>
@@ -530,19 +529,19 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="onUploadDocumentPressed:" destination="ewn-cH-MvV" eventType="touchUpInside" id="yjs-nR-vwB"/>
+                                            <action selector="onCreatePDFPressed:" destination="ewn-cH-MvV" eventType="touchUpInside" id="del-Gt-gal"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="8h8-3P-al6" firstAttribute="top" secondItem="xB1-gQ-EyX" secondAttribute="bottom" constant="20" id="3zI-SY-0nE"/>
-                                    <constraint firstAttribute="bottom" secondItem="8h8-3P-al6" secondAttribute="bottom" id="5Re-Iv-QdQ"/>
+                                    <constraint firstItem="uon-w6-vU3" firstAttribute="leading" secondItem="ovR-aj-aCB" secondAttribute="leading" id="2VX-P1-Zfq"/>
                                     <constraint firstItem="xB1-gQ-EyX" firstAttribute="leading" secondItem="ovR-aj-aCB" secondAttribute="leading" id="7Fl-g7-en9"/>
-                                    <constraint firstItem="8h8-3P-al6" firstAttribute="leading" secondItem="ovR-aj-aCB" secondAttribute="leading" id="7YM-24-7p1"/>
+                                    <constraint firstAttribute="trailing" secondItem="uon-w6-vU3" secondAttribute="trailing" id="APS-Hx-s37"/>
                                     <constraint firstItem="xB1-gQ-EyX" firstAttribute="top" secondItem="ovR-aj-aCB" secondAttribute="top" id="O3B-0Q-Ksf"/>
-                                    <constraint firstAttribute="trailing" secondItem="8h8-3P-al6" secondAttribute="trailing" id="cFo-jt-RLN"/>
                                     <constraint firstAttribute="trailing" secondItem="xB1-gQ-EyX" secondAttribute="trailing" id="dpy-Dt-zXG"/>
+                                    <constraint firstAttribute="bottom" secondItem="uon-w6-vU3" secondAttribute="bottom" id="idx-uY-hxD"/>
+                                    <constraint firstItem="uon-w6-vU3" firstAttribute="top" secondItem="xB1-gQ-EyX" secondAttribute="bottom" constant="20" id="taM-I0-pFJ"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -605,16 +604,162 @@
             </objects>
             <point key="canvasLocation" x="5440.8000000000002" y="1616.041979010495"/>
         </scene>
+        <!--Create PDF-->
+        <scene sceneID="qJv-gT-nn5">
+            <objects>
+                <viewController storyboardIdentifier="createPDFViewController" id="tQn-oG-thc" customClass="CreatePDFViewController" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eWx-Fg-A9H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRQ-co-P4l" userLabel="TitleBar">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7JD-D2-JbB">
+                                        <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="CXV-TD-QHh"/>
+                                            <constraint firstAttribute="width" constant="30" id="iUU-7e-RoY"/>
+                                        </constraints>
+                                        <state key="normal" image="ic_arrow_left"/>
+                                        <connections>
+                                            <action selector="onBackPressed:" destination="tQn-oG-thc" eventType="touchUpInside" id="EDL-P3-iav"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create PDF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEX-fi-hPL">
+                                        <rect key="frame" x="144" y="11.666666666666664" width="87" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTG-Qu-gzJ">
+                                        <rect key="frame" x="323" y="4" width="36" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="WNn-6A-Pl5"/>
+                                            <constraint firstAttribute="width" constant="36" id="obK-7K-721"/>
+                                        </constraints>
+                                        <state key="normal" image="ic_plus"/>
+                                        <connections>
+                                            <action selector="onAddPressed:" destination="tQn-oG-thc" eventType="touchUpInside" id="1UB-Ft-BCf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="8Hz-65-y1X"/>
+                                    <constraint firstItem="gTG-Qu-gzJ" firstAttribute="centerY" secondItem="gRQ-co-P4l" secondAttribute="centerY" id="Bhd-hp-d5n"/>
+                                    <constraint firstItem="tEX-fi-hPL" firstAttribute="centerY" secondItem="gRQ-co-P4l" secondAttribute="centerY" id="DKd-uF-xcu"/>
+                                    <constraint firstItem="7JD-D2-JbB" firstAttribute="centerY" secondItem="gRQ-co-P4l" secondAttribute="centerY" id="LkU-Wj-GZy"/>
+                                    <constraint firstItem="tEX-fi-hPL" firstAttribute="centerX" secondItem="gRQ-co-P4l" secondAttribute="centerX" id="OL3-Ig-peq"/>
+                                    <constraint firstAttribute="trailing" secondItem="gTG-Qu-gzJ" secondAttribute="trailing" constant="16" id="Qsl-On-YOe"/>
+                                    <constraint firstItem="7JD-D2-JbB" firstAttribute="leading" secondItem="gRQ-co-P4l" secondAttribute="leading" constant="16" id="egr-74-UKh"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tqt-RU-2lv" userLabel="TopBar">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <color key="backgroundColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yss-0i-S63">
+                                <rect key="frame" x="0.0" y="88" width="375" height="672"/>
+                                <color key="backgroundColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="imageViewCell" rowHeight="369" id="5Ex-el-ihb" customClass="ImageViewCell" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="369"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Ex-el-ihb" id="tFr-jf-26C">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="369"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c90-f2-adf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="369"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.12549019610000001" green="0.1529411765" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="c90-f2-adf" firstAttribute="top" secondItem="tFr-jf-26C" secondAttribute="top" id="4Xq-jr-KsD"/>
+                                                <constraint firstItem="c90-f2-adf" firstAttribute="leading" secondItem="tFr-jf-26C" secondAttribute="leading" id="TJg-Zt-iu4"/>
+                                                <constraint firstAttribute="trailing" secondItem="c90-f2-adf" secondAttribute="trailing" id="oJe-PT-Rvp"/>
+                                                <constraint firstAttribute="bottom" secondItem="c90-f2-adf" secondAttribute="bottom" id="t9i-CH-zJg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageItem" destination="c90-f2-adf" id="fMr-8h-ctu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press + to add image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0Y-AG-JqA">
+                                <rect key="frame" x="107.66666666666669" y="395.66666666666669" width="160" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1B-gc-Sq6">
+                                <rect key="frame" x="0.0" y="760" width="375" height="52"/>
+                                <color key="backgroundColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="LuS-fT-D7Y"/>
+                                </constraints>
+                                <state key="normal" title="Upload"/>
+                                <connections>
+                                    <action selector="onGeneratePressed:" destination="tQn-oG-thc" eventType="touchUpInside" id="Ilj-Bn-pan"/>
+                                    <action selector="onUploadPhotoPressed:" destination="ewn-cH-MvV" eventType="touchUpInside" id="f1L-nt-lKp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="O6S-rb-87I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gRQ-co-P4l" firstAttribute="top" secondItem="tqt-RU-2lv" secondAttribute="bottom" id="0pH-HY-DXi"/>
+                            <constraint firstItem="Yss-0i-S63" firstAttribute="trailing" secondItem="O6S-rb-87I" secondAttribute="trailing" id="0q6-ve-nuD"/>
+                            <constraint firstItem="gRQ-co-P4l" firstAttribute="top" secondItem="O6S-rb-87I" secondAttribute="top" id="2dN-If-bhM"/>
+                            <constraint firstAttribute="bottom" secondItem="s1B-gc-Sq6" secondAttribute="bottom" id="4bT-NX-dk6"/>
+                            <constraint firstItem="tqt-RU-2lv" firstAttribute="leading" secondItem="eWx-Fg-A9H" secondAttribute="leading" id="77Q-bt-lCg"/>
+                            <constraint firstItem="g0Y-AG-JqA" firstAttribute="centerX" secondItem="eWx-Fg-A9H" secondAttribute="centerX" id="7li-Ni-yMB"/>
+                            <constraint firstItem="tqt-RU-2lv" firstAttribute="top" secondItem="eWx-Fg-A9H" secondAttribute="top" id="8lc-b6-IBa"/>
+                            <constraint firstItem="Yss-0i-S63" firstAttribute="top" secondItem="gRQ-co-P4l" secondAttribute="bottom" id="9Km-e2-ikq"/>
+                            <constraint firstItem="Yss-0i-S63" firstAttribute="leading" secondItem="O6S-rb-87I" secondAttribute="leading" id="FSp-kY-hjw"/>
+                            <constraint firstItem="s1B-gc-Sq6" firstAttribute="top" secondItem="Yss-0i-S63" secondAttribute="bottom" id="NeN-fq-YRo"/>
+                            <constraint firstItem="gRQ-co-P4l" firstAttribute="trailing" secondItem="O6S-rb-87I" secondAttribute="trailing" id="ZBd-2k-hDg"/>
+                            <constraint firstItem="gRQ-co-P4l" firstAttribute="leading" secondItem="O6S-rb-87I" secondAttribute="leading" id="d5Z-zh-nN3"/>
+                            <constraint firstItem="s1B-gc-Sq6" firstAttribute="leading" secondItem="O6S-rb-87I" secondAttribute="leading" id="fP4-ya-4LE"/>
+                            <constraint firstItem="O6S-rb-87I" firstAttribute="trailing" secondItem="s1B-gc-Sq6" secondAttribute="trailing" id="g4f-v4-jrW"/>
+                            <constraint firstAttribute="trailing" secondItem="tqt-RU-2lv" secondAttribute="trailing" id="xHq-zS-cnb"/>
+                            <constraint firstItem="g0Y-AG-JqA" firstAttribute="centerY" secondItem="eWx-Fg-A9H" secondAttribute="centerY" id="zw9-iC-0aQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Create PDF" id="CPS-hk-aPh">
+                        <barButtonItem key="leftBarButtonItem" image="ic_arrow_left" id="UvV-WY-iqn">
+                            <connections>
+                                <action selector="onBackPressed:" destination="tQn-oG-thc" id="O80-hU-Dir"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="ic_plus" id="wxY-sQ-Nwz">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="onAddPressed:" destination="tQn-oG-thc" id="Vdp-ve-xjB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="placeHolderLabel" destination="g0Y-AG-JqA" id="G3p-fI-nvk"/>
+                        <outlet property="tableView" destination="Yss-0i-S63" id="A0q-qV-cCQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hB1-4M-vcT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7485.6000000000004" y="1616.7487684729065"/>
+        </scene>
         <!--Select-->
         <scene sceneID="wP3-nk-r8k">
             <objects>
                 <viewController storyboardIdentifier="selectTypeViewController" id="A1C-UM-zkf" customClass="SelectTypeViewController" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cfb-mH-ec4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Zq4-3l-cVb">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
                                 <color key="backgroundColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="itemTypeCell" rowHeight="76" id="aEX-YG-DwD" userLabel="itemTypeCell" customClass="ItemTypeCell" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
@@ -726,11 +871,11 @@
             <objects>
                 <viewController id="Gzk-HH-wU5" customClass="HistoryViewController" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ycj-b1-O8K">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OW4-h6-h4z">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="574"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                                 <color key="backgroundColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="historyDataCell" rowHeight="72" id="neo-4h-h9b" customClass="HistoryDataCell" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
@@ -828,7 +973,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5us-YD-f5K">
-                                <rect key="frame" x="147" y="301" width="81" height="21"/>
+                                <rect key="frame" x="147" y="351.66666666666669" width="81" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -860,11 +1005,11 @@
             <objects>
                 <tableViewController id="zUW-MH-e2a" customClass="SettingsViewController" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="hZl-YE-L3q">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="5RI-Be-ddy">
-                            <rect key="frame" x="0.0" y="572.83333587646484" width="375" height="44"/>
+                            <rect key="frame" x="0.0" y="572.66666793823242" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made with 💜 by Nisos UK Limited" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iWJ-gv-geH">
@@ -884,20 +1029,20 @@
                             <tableViewSection headerTitle="Account" id="EOF-sa-ryD">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="CeP-KQ-g8s">
-                                        <rect key="frame" x="0.0" y="55.5" width="375" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="55.333332061767578" width="375" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CeP-KQ-g8s" id="lBN-Yp-Ymy">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Package" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDA-Zi-b6E">
-                                                    <rect key="frame" x="16" y="12.5" width="62" height="19"/>
+                                                    <rect key="frame" x="16" y="12.666666666666664" width="62" height="19"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lz-rg-uHF">
-                                                    <rect key="frame" x="312" y="13.5" width="47" height="17"/>
+                                                    <rect key="frame" x="312" y="13.666666666666664" width="47" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -923,20 +1068,20 @@
                                         <color key="backgroundColor" red="0.12549019610000001" green="0.1529411765" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="cOw-ME-Vom">
-                                        <rect key="frame" x="0.0" y="99.166667938232422" width="375" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="99" width="375" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cOw-ME-Vom" id="1WR-5J-2vQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="348" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="347.66666666666669" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscription" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ck7-xF-I2q">
-                                                    <rect key="frame" x="16" y="12.5" width="91.5" height="19"/>
+                                                    <rect key="frame" x="16" y="12.666666666666664" width="91.666666666666671" height="19"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2d-dz-ELV">
-                                                    <rect key="frame" x="340" y="22" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="339.66666666666669" y="22" width="0.0" height="0.0"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -957,7 +1102,7 @@
                             <tableViewSection headerTitle="General" id="k3e-bp-DR0">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="60" id="EdW-Ad-7Oz">
-                                        <rect key="frame" x="0.0" y="198.83333587646484" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="198.66666793823242" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EdW-Ad-7Oz" id="2eK-Bn-Vjd">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -986,7 +1131,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEi-1w-04M">
-                                                    <rect key="frame" x="310" y="14.5" width="51" height="31"/>
+                                                    <rect key="frame" x="310" y="14.666666666666664" width="51" height="31"/>
                                                     <color key="onTintColor" red="0.44705882352941173" green="0.37254901960784315" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
                                                         <action selector="onSwitchChanged:" destination="zUW-MH-e2a" eventType="valueChanged" id="8WZ-P5-BKT"/>
@@ -996,13 +1141,13 @@
                                                     <rect key="frame" x="64" y="13" width="246" height="34"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vibrate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOg-Hx-IqM">
-                                                            <rect key="frame" x="0.0" y="0.0" width="52.5" height="19.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="52.666666666666664" height="19.666666666666668"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vibrate if scan is successful" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOu-5E-ZmF">
-                                                            <rect key="frame" x="0.0" y="19.5" width="246" height="14.5"/>
+                                                            <rect key="frame" x="0.0" y="19.666666666666664" width="246" height="14.333333333333336"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <color key="textColor" red="0.59607843137254901" green="0.59607843137254901" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1032,7 +1177,7 @@
                                         <color key="backgroundColor" red="0.12549019610000001" green="0.1529411765" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="60" id="vq4-nd-L5M">
-                                        <rect key="frame" x="0.0" y="258.83333587646484" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="258.66666793823242" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vq4-nd-L5M" id="2Qe-Db-vpF">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -1064,13 +1209,13 @@
                                                     <rect key="frame" x="64" y="13" width="246" height="34"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V56-PH-ld0">
-                                                            <rect key="frame" x="0.0" y="0.0" width="37.5" height="19.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="37.666666666666664" height="19.666666666666668"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beep if scan is successful" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUT-zv-80F">
-                                                            <rect key="frame" x="0.0" y="19.5" width="246" height="14.5"/>
+                                                            <rect key="frame" x="0.0" y="19.666666666666664" width="246" height="14.333333333333336"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <color key="textColor" red="0.59607843140000005" green="0.59607843140000005" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1087,7 +1232,7 @@
                                                     </constraints>
                                                 </view>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vF8-LV-9s1">
-                                                    <rect key="frame" x="310" y="14.5" width="51" height="31"/>
+                                                    <rect key="frame" x="310" y="14.666666666666664" width="51" height="31"/>
                                                     <color key="onTintColor" red="0.44705882352941173" green="0.37254901960784315" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
                                                         <action selector="onSwitchChanged:" destination="zUW-MH-e2a" eventType="valueChanged" id="3WL-uP-USJ"/>
@@ -1107,7 +1252,7 @@
                                         <color key="backgroundColor" red="0.12549019610000001" green="0.1529411765" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="60" id="HwT-zy-9Ng">
-                                        <rect key="frame" x="0.0" y="318.83333587646484" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="318.66666793823242" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HwT-zy-9Ng" id="hxM-Gi-4aq">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -1139,13 +1284,13 @@
                                                     <rect key="frame" x="64" y="13" width="246" height="34"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbL-6E-4yr">
-                                                            <rect key="frame" x="0.0" y="0.0" width="52" height="19.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="52" height="19.666666666666668"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Save history for scanning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7t9-r8-Fdk">
-                                                            <rect key="frame" x="0.0" y="19.5" width="246" height="14.5"/>
+                                                            <rect key="frame" x="0.0" y="19.666666666666664" width="246" height="14.333333333333336"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <color key="textColor" red="0.59607843140000005" green="0.59607843140000005" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1162,7 +1307,7 @@
                                                     </constraints>
                                                 </view>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="idf-Lr-CsN">
-                                                    <rect key="frame" x="310" y="14.5" width="51" height="31"/>
+                                                    <rect key="frame" x="310" y="14.666666666666664" width="51" height="31"/>
                                                     <color key="onTintColor" red="0.44705882352941173" green="0.37254901960784315" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
                                                         <action selector="onSwitchChanged:" destination="zUW-MH-e2a" eventType="valueChanged" id="bll-GJ-gTA"/>
@@ -1186,10 +1331,10 @@
                             <tableViewSection headerTitle="Others" id="lNm-u6-Ck1">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="mJb-Kq-soU">
-                                        <rect key="frame" x="0.0" y="434.83333587646484" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="434.66666793823242" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mJb-Kq-soU" id="Mko-Zw-bak">
-                                            <rect key="frame" x="0.0" y="0.0" width="348" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="347.66666666666669" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="moP-rE-9gg" userLabel="ImageView" customClass="ExtensionView" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
@@ -1215,7 +1360,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nr9-l9-EKU">
-                                                    <rect key="frame" x="64" y="20" width="100.5" height="20"/>
+                                                    <rect key="frame" x="64" y="20" width="100.66666666666669" height="20"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -1231,10 +1376,10 @@
                                         <color key="backgroundColor" red="0.12549019610000001" green="0.1529411765" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="G6H-J9-wzK">
-                                        <rect key="frame" x="0.0" y="494.83333587646484" width="375" height="60"/>
+                                        <rect key="frame" x="0.0" y="494.66666793823242" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G6H-J9-wzK" id="eo6-am-DPJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="348" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="347.66666666666669" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sk8-5T-s8u" userLabel="ImageView" customClass="ExtensionView" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
@@ -1302,11 +1447,11 @@
             <objects>
                 <viewController storyboardIdentifier="subscribeViewController" id="Tjr-q7-7HY" customClass="SubscribeViewController" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2kU-ar-sTH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="686"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="642"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Sy-Hx-GgG">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="686"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="642"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IcU-s3-zsi">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="712"/>
@@ -1318,7 +1463,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_qrcode" translatesAutoresizingMaskIntoConstraints="NO" id="SAS-xj-IrM">
-                                                <rect key="frame" x="127.5" y="74" width="120" height="120"/>
+                                                <rect key="frame" x="127.66666666666669" y="74" width="120" height="120"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="Dpy-gQ-pGw"/>
                                                     <constraint firstAttribute="height" constant="120" id="gRZ-mi-eLf"/>
@@ -1361,7 +1506,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan &amp; Create 15 types of QR Codes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlL-un-aiF">
-                                                        <rect key="frame" x="48" y="21" width="255.5" height="18"/>
+                                                        <rect key="frame" x="47.999999999999986" y="21" width="255.66666666666663" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1450,7 +1595,7 @@
                                                         <rect key="frame" x="285" y="22" width="32" height="32"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Puo-en-Xeg">
-                                                                <rect key="frame" x="0.0" y="0.5" width="32" height="31"/>
+                                                                <rect key="frame" x="0.0" y="0.99999999999999822" width="32" height="30.666666666666664"/>
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </imageView>
                                                         </subviews>
@@ -1642,7 +1787,7 @@
                     <tabBarItem key="tabBarItem" title="Settings" image="ic_settings" id="Dma-t1-epY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="7ky-mA-r56">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -1663,11 +1808,11 @@
             <objects>
                 <viewController id="fm2-rg-fc3" customClass="MyQRCodesViewController" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jyt-zw-64Q">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Ip-H9-p4L">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="574"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                                 <color key="backgroundColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="historyDataCell" rowHeight="72" id="hVU-uY-6gg" customClass="HistoryDataCell" customModule="Fast_QR_Code___Barcode_Scanner" customModuleProvider="target">
@@ -1765,7 +1910,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vf7-iC-AOv">
-                                <rect key="frame" x="99" y="285" width="177.5" height="53"/>
+                                <rect key="frame" x="99.000000000000014" y="335.66666666666669" width="177.33333333333337" height="52.666666666666686"/>
                                 <string key="text">No History
 Create a QR Code</string>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
@@ -1785,7 +1930,7 @@ Create a QR Code</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="My QR Codes" id="asX-M3-9QA">
-                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="3cE-NW-z8Z">
+                        <barButtonItem key="rightBarButtonItem" image="ic_plus" id="3cE-NW-z8Z">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="onAddQRCodePressed:" destination="fm2-rg-fc3" id="0xI-uP-6fz"/>
@@ -1808,7 +1953,7 @@ Create a QR Code</string>
                     <tabBarItem key="tabBarItem" title="History" image="ic_timer" id="7gJ-nJ-6VF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="mYx-wx-i20">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -1830,7 +1975,7 @@ Create a QR Code</string>
                 <navigationController storyboardIdentifier="subscribeNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="KKw-Ye-IDL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="F13-Dk-RDP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -1853,7 +1998,7 @@ Create a QR Code</string>
                     <tabBarItem key="tabBarItem" title="My Codes" image="ic_create" id="MRe-IS-AhD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="vfh-HN-pJC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -1875,7 +2020,7 @@ Create a QR Code</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mkc-Oo-Ou1" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="zVU-p0-bNt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -1897,7 +2042,7 @@ Create a QR Code</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mp9-hs-yj5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="7tf-ho-ui8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -1919,7 +2064,7 @@ Create a QR Code</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VhV-jB-FeJ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="9Jn-Yn-2oV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.031372549020000001" green="0.062745098040000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -1940,11 +2085,11 @@ Create a QR Code</string>
         <designable name="0s9-hA-BeU">
             <size key="intrinsicContentSize" width="113" height="32"/>
         </designable>
-        <designable name="8h8-3P-al6">
-            <size key="intrinsicContentSize" width="124" height="30"/>
-        </designable>
         <designable name="EsG-an-bXo">
             <size key="intrinsicContentSize" width="131" height="32"/>
+        </designable>
+        <designable name="uon-w6-vU3">
+            <size key="intrinsicContentSize" width="124" height="30"/>
         </designable>
         <designable name="xB1-gQ-EyX">
             <size key="intrinsicContentSize" width="94" height="30"/>
@@ -1953,28 +2098,28 @@ Create a QR Code</string>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="checkmark.circle" catalog="system" width="128" height="121"/>
-        <image name="ic_arrow_left" width="32" height="32"/>
-        <image name="ic_bell" width="20.5" height="22.5"/>
+        <image name="ic_arrow_left" width="42.666667938232422" height="42.666667938232422"/>
+        <image name="ic_bell" width="20.333333969116211" height="22.333333969116211"/>
         <image name="ic_copy" width="21" height="21"/>
-        <image name="ic_create" width="27.5" height="27"/>
+        <image name="ic_create" width="27.666666030883789" height="27"/>
         <image name="ic_flashlight_off" width="33" height="66"/>
-        <image name="ic_hand" width="16.5" height="23"/>
+        <image name="ic_hand" width="16.666666030883789" height="23"/>
         <image name="ic_information" width="23" height="23"/>
-        <image name="ic_link_medium" width="62" height="62"/>
-        <image name="ic_premium" width="17.5" height="16.5"/>
-        <image name="ic_premium_lock" width="14" height="16.5"/>
-        <image name="ic_premium_scan" width="20" height="20"/>
-        <image name="ic_premium_support" width="16.5" height="16.5"/>
-        <image name="ic_premium_upgrade" width="16.5" height="24"/>
-        <image name="ic_qrcode" width="125.5" height="125.5"/>
+        <image name="ic_link_medium" width="61.666667938232422" height="61.666667938232422"/>
+        <image name="ic_plus" width="24" height="24"/>
+        <image name="ic_premium" width="17.333333969116211" height="16.333333969116211"/>
+        <image name="ic_premium_lock" width="13.666666984558105" height="16.666666030883789"/>
+        <image name="ic_premium_scan" width="19.666666030883789" height="19.666666030883789"/>
+        <image name="ic_premium_support" width="16.666666030883789" height="16.666666030883789"/>
+        <image name="ic_premium_upgrade" width="16.666666030883789" height="24"/>
+        <image name="ic_qrcode" width="125.66666412353516" height="125.66666412353516"/>
         <image name="ic_scan" width="25" height="25"/>
         <image name="ic_settings" width="25" height="25"/>
         <image name="ic_share" width="21" height="21"/>
-        <image name="ic_timer" width="23.5" height="22.5"/>
+        <image name="ic_timer" width="23.333333969116211" height="22.333333969116211"/>
         <image name="ic_url" width="50" height="50"/>
-        <image name="ic_vibrate" width="28.5" height="21.5"/>
-        <image name="ic_web" width="18.5" height="18.5"/>
-        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="ic_vibrate" width="28.333333969116211" height="21.333333969116211"/>
+        <image name="ic_web" width="18.666666030883789" height="18.666666030883789"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

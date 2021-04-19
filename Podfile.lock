@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.2.2)
   - FacebookSDK (8.0.0):
     - FacebookSDK/CoreKit (= 8.0.0)
   - FacebookSDK/CoreKit (8.0.0):
@@ -73,6 +74,7 @@ PODS:
     - nanopb/encode (= 1.30906.0)
   - nanopb/decode (1.30906.0)
   - nanopb/encode (1.30906.0)
+  - PDFGenerator (3.1.0)
   - PromisesObjC (1.2.11)
   - Realm (5.5.0):
     - Realm/Headers (= 5.5.0)
@@ -83,16 +85,19 @@ PODS:
   - SwipeableTabBarController (3.2.1)
 
 DEPENDENCIES:
+  - Alamofire
   - FacebookSDK
   - Firebase/Analytics
   - IQKeyboardManagerSwift
   - JGProgressHUD
+  - PDFGenerator (~> 3.1)
   - RealmSwift
   - SwiftyStoreKit
   - SwipeableTabBarController
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - FacebookSDK
     - FBSDKCoreKit
     - Firebase
@@ -106,6 +111,7 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - JGProgressHUD
     - nanopb
+    - PDFGenerator
     - PromisesObjC
     - Realm
     - RealmSwift
@@ -113,6 +119,7 @@ SPEC REPOS:
     - SwipeableTabBarController
 
 SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
   FacebookSDK: 57f08b331cc29d7c65e2b7200dbb6f58e223d627
   FBSDKCoreKit: 9d27fe97a2fa2abe5eeefea8240e837623ab88e0
   Firebase: c23a36d9e4cdf7877dfcba8dd0c58add66358999
@@ -126,12 +133,13 @@ SPEC CHECKSUMS:
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
   nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  PDFGenerator: 17d6bc525db0a3fcd156fbf00f9d1b8d5cc75d1e
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
   Realm: fb399d76f44042e5cdfc630f33828fdb4d077345
   RealmSwift: 3b7e62356207ef16d34de4e55d475163bd2062bb
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
   SwipeableTabBarController: 8f001d3a67dc052542a9f65721cb5b0451b11df2
 
-PODFILE CHECKSUM: 9b692798a4be0feeebbe777471d225398ded0401
+PODFILE CHECKSUM: 40d3e97894fedb5ccce7988085dcc446d04c6cfc
 
 COCOAPODS: 1.9.3

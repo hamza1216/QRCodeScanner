@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import JGProgressHUD
 
-
-class CreateQRCoeViewController: UIViewController {
+class CreateQRCoeViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UploadDocumentDelegate {
+    
     
     @IBOutlet weak var avatarImageView: UIImageView!
     
@@ -32,6 +33,7 @@ class CreateQRCoeViewController: UIViewController {
     
     @IBOutlet weak var uploadButtonView: UIView!
     
+    var imagePicker: UIImagePickerController!
 
     private var type: String = "url"
     private var itemTitle: String = "Url"
@@ -40,6 +42,8 @@ class CreateQRCoeViewController: UIViewController {
     private var itemTypeData: ItemTypeData?
     
     private var codeData: MyCodeData?
+    
+    let hud = JGProgressHUD(style: .light)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -111,7 +115,7 @@ class CreateQRCoeViewController: UIViewController {
             self.fourthLabel.isHidden = true
             self.fourthView.isHidden = true
             
-            self.uploadButtonView.isHidden = true
+            self.uploadButtonView.isHidden = false
 
         }
         else if type == "facebook" {
@@ -226,12 +230,94 @@ class CreateQRCoeViewController: UIViewController {
         self.codeData = codeData
     }
     
-    @IBAction func onUploadPhotoPressed(_ sender: Any) {
-        
+    
+    enum ImageSource {
+       case photoLibrary
+       case camera
     }
     
-    @IBAction func onUploadDocumentPressed(_ sender: Any) {
+    @IBAction func onUploadPhotoPressed(_ sender: Any) {
+        let photoLibraryAction = UIAlertAction(title: "Choose from Library", style: .default) { (action) in
+            self.selectImageFrom(.photoLibrary)
+        }
+        let cameraAction = UIAlertAction(title: "Take from Camera", style: .default) { (action) in
+            self.selectImageFrom(.camera)
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
+        let alertController = UIAlertController(title: "Choose your image", message: nil, preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(photoLibraryAction)
+        alertController.addAction(cameraAction)
+        alertController.addAction(cancelAction)
+
+        present(alertController, animated: true, completion: nil)
+    }
+    func selectImageFrom(_ source: ImageSource){
+        imagePicker =  UIImagePickerController()
+        imagePicker.delegate = self
+        switch source {
+        case .camera:
+            imagePicker.sourceType = .camera
+        case .photoLibrary:
+            imagePicker.sourceType = .photoLibrary
+        }
+        present(imagePicker, animated: true, completion: nil)
+    }
+    //MARK: - Add image to Library
+    @objc func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+        if let error = error {
+            // we got back an error!
+            AppHelper.showAlert(vc: self, "Save error", error.localizedDescription)
+        } else {
+            AppHelper.showAlert(vc: self, "Saved", "Your image has been saved to your photos.")
+        }
+    }
+
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        imagePicker.dismiss(animated: true, completion: nil)
+        
+/*
+        guard let imageURL = info[UIImagePickerController.InfoKey.imageURL] as? URL else{
+            return
+        }
+        self.photoURL = imageURL.path
+        let tempURL = URL(fileURLWithPath: self.photoURL!)
+        let data = try? Data(contentsOf: tempURL)
+        profileImageView.image = UIImage(data: data!)
+ */
+        guard let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage else {
+            return
+        }
+        let data = image.jpegData(compressionQuality: 0.5)
+        
+        self.hud.show(in: self.view, animated: true)
+        AppHelper.sharedInstance.uploadDocument(data!, filename: "image.jpg") { (response, error) in
+            if(response != nil) {
+                if response?.result == "success"{
+                    self.urlTextField.text = AppHelper.sharedInstance.hostURL + response!.message
+                    self.hud.textLabel.text = "Uploaded successfully."
+                    self.hud.dismiss(afterDelay: 2.0, animated: true)
+
+                }
+                else{
+                    self.hud.textLabel.text = "Failed to upload."
+                    self.hud.dismiss(afterDelay: 2.0, animated: true)
+                }
+            }
+            else{
+                self.hud.textLabel.text = "Failed to upload."
+                self.hud.dismiss(afterDelay: 2.0, animated: true)
+            }
+        }
+ 
+    }
+    
+    @IBAction func onCreatePDFPressed(_ sender: Any) {
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = mainStoryboard.instantiateViewController(withIdentifier: "createPDFViewController") as! CreatePDFViewController
+        vc.delegate = self
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
     }
     
     @IBAction func onDonePressed(_ sender: Any) {
@@ -299,5 +385,7 @@ class CreateQRCoeViewController: UIViewController {
         return myCodeData
     }
     
-    
+    func didFileUploaded(url: String) {
+        self.urlTextField.text = url
+    }
 }

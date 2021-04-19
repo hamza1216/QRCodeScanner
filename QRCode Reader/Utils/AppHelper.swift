@@ -8,9 +8,11 @@
 
 import Foundation
 import UIKit
+import Alamofire
 
 class AppHelper{
     static let sharedInstance = AppHelper()
+    var hostURL = "https://theqrcodecreator.com/"
 
     let time24Formatter = DateFormatter()
     let engFormatter = DateFormatter()
@@ -70,5 +72,34 @@ class AppHelper{
         ))
         vc.present(alert, animated: true, completion: nil)
     }
-    
+    func uploadDocument(_ file: Data, filename : String, withCompletion completion : @escaping (UploadDataResponse?, Error?) -> Void) {
+       let headers: HTTPHeaders = [
+           "Content-type": "multipart/form-data"
+       ]
+
+       AF.upload(
+           multipartFormData: { multipartFormData in
+               multipartFormData.append(file, withName: "media" , fileName: filename, mimeType: "application/jpeg")
+       },
+           to: hostURL + "file_upload.php", method: .post , headers: headers)
+           .response { response in
+            switch response.result {
+            case .success(let data):
+                do {
+                    let responseData = try JSONDecoder().decode(UploadDataResponse.self, from: data!)
+                    if(responseData.result == "success"){
+                        completion(responseData, nil)
+                    }
+                    else{
+                        completion(nil, nil)
+                    }
+                } catch let error {
+                    debugPrint("Fetching List Error Error: \(error)")
+                    completion(nil, error)
+                }
+            case .failure(let error):
+                completion(nil, error)
+            }
+       }
+   }
 }

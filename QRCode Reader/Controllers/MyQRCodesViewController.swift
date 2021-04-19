@@ -171,7 +171,7 @@ class MyQRCodesViewController: UIViewController, UITableViewDataSource, UITableV
             return
         }
  */
- 
+  
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = mainStoryboard.instantiateViewController(withIdentifier: "selectTypeViewController")        
         self.navigationController?.pushViewController(vc, animated: true)

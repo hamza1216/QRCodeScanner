@@ -13,5 +13,7 @@ target 'QRCode Reader' do
   pod 'FacebookSDK'
   pod 'Firebase/Analytics'
   pod 'IQKeyboardManagerSwift'
-  
+  pod 'PDFGenerator', '~> 3.1'
+  pod 'Alamofire'
+
 end
